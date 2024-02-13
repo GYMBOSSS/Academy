@@ -36,9 +36,9 @@ public:
 Entity bagLoader(int bagsize)
 {
     Entity entity;
-    std::random_device rd;
-    std::mt19937 gen(rd());
-    std::uniform_int_distribution<> dis(1, 100);
+    random_device rd;
+    mt19937 gen(rd());
+    uniform_int_distribution<> dis(1, 100);
 
     for (int i = 0; i < bagsize; i++) 
     {
