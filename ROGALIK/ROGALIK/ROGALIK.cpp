@@ -1,12 +1,14 @@
 ﻿#include <iostream> 
 #include <windows.h> 
 #include <list> 
-#include <conio.h> 
+#include <conio.h>
 #include <vector>
 using namespace std;
 char emptyChar = '.';
 
 class SuperObject;
+class Item;
+class Coin;
 class Coord
 {
 public:
@@ -53,8 +55,8 @@ ostream& operator<<(ostream& out, Point& obj)
 
 class SuperObject
 {
-    Point* place;
 public:
+    Point* place;
     char icon;
     int speed{ 1 }; // квантификатор скорости 
     bool ismov{ false }; // движется объект или нет 
@@ -90,6 +92,11 @@ public:
         if (place != nullptr) place->into = nullptr;
         place = p;
         p->into = this;
+    }
+    virtual void delink(Point* p)
+    {
+        place->into = nullptr;
+        place = nullptr;
     }
     virtual int collision_hanlder(SuperObject* obj)
     {
@@ -168,13 +175,14 @@ void displayOut() {
     }
 }
 
-
+vector<Item*> tempInventory;
 
 class Entity : public SuperObject
 {
 public:
     int life = 1;
     vector<Item*> inventory;
+
     Entity() : SuperObject() {}
     Entity(Point* placeP, char iconP, int lifeP) :
         SuperObject(placeP, iconP), life{ lifeP } {}
@@ -183,11 +191,20 @@ public:
         if (typeid(obj) == typeid(Entity))
         {
             Entity* entity = dynamic_cast<Entity*>(obj);
-            if (entity != nullptr)
+            if (entity->life < 1)
             {
-                life = 0;
+                Point* temp;
+                temp = entity->place;
+                entity->delink(temp);
+                Coin *coin2 = new Coin;
+                coin2->link(temp);
             }
         }
+        /*if (typeid(obj) == typeid(Case))
+        {
+            Case* box = dynamic_cast<Case*>(obj);
+            tempInventory.swap(box.inventory);
+        }*/
         return 1;
     }
 };
@@ -199,12 +216,33 @@ public:
     Item() : SuperObject() {}
     Item(Point* placeP, char iconP, int tempP) :
         SuperObject(placeP, iconP), temp{ tempP } {}
+
+    virtual int collision_hanlder(SuperObject* obj)
+    {
+        //your code here 
+        return 1;
+
+    }
 };
 class Case : public SuperObject
 {
 public:
     vector<Item> inventory;
-    Case(vector<Item> inv) : inventory(inv) {};
+    Case() : SuperObject() {}
+    Case(Point* placeP, vector<Item> inv, char iconP) : SuperObject(placeP, iconP), inventory(inv) {};
+};
+class Coin : public Item
+{
+public:
+    int amount = 1;
+    Coin() : Item() {}
+    Coin(Point* placeP, char iconP, int amountP) : Item(placeP, iconP, amountP) {};
+};
+class Weapon : public Item
+{
+    char icon;
+    int damage;
+    Weapon(char icon, int damage) : icon(icon), damage(damage) {};
 };
 
 int enemyMoved[4]{ 1,2,3,4 };
@@ -212,6 +250,7 @@ int i = 0;
 
 int main()
 {
+
     for (int i = 0; i < HIGH; i++)
     {
         for (int j = 0; j < WIDTH; j++)
@@ -223,8 +262,11 @@ int main()
     player.link(&display[5][5]);
     player.icon = '@';
     player.life = 10;
+    Coin coin;
+    vector<Item> forbox{ coin };
     Entity enemy(&display[5][7], '$', 15);
     Item sword(&display[3][3], '!', 2);
+    Case box(&display[6][6], forbox,'#');
 
     //добавление объектов в список 
     objects.push_back(&player);
@@ -292,7 +334,7 @@ int main()
                 //проверка на то, есть ли что-то в этой точке (into=nulptr - false - пустота) 
                 if (display[tempCoord.y][tempCoord.x].into)
                 {
-                    display[tempCoord.y][tempCoord.x].into->collision_hanlder(curObj);
+                    //display[tempCoord.y][tempCoord.x].into->collision_hanlder(curObj);
                     curObj->collision_hanlder(display[tempCoord.y][tempCoord.x].into);
                 }
                 else

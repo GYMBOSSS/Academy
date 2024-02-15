@@ -1,2 +1,9 @@
 ﻿  ROGALIK.cpp
-  ROGALIK.vcxproj -> C:\Users\Student_19\Desktop\Repos\Academy\ROGALIK\x64\Debug\ROGALIK.exe
+C:\Users\Student_19\Desktop\Repos\Academy\ROGALIK\ROGALIK\ROGALIK.cpp(199,31): error C2027: использование неопределенного типа "Coin"
+  C:\Users\Student_19\Desktop\Repos\Academy\ROGALIK\ROGALIK\ROGALIK.cpp(11,7):
+   см. объявление "Coin"
+  
+C:\Users\Student_19\Desktop\Repos\Academy\ROGALIK\ROGALIK\ROGALIK.cpp(200,17): error C2027: использование неопределенного типа "Coin"
+  C:\Users\Student_19\Desktop\Repos\Academy\ROGALIK\ROGALIK\ROGALIK.cpp(11,7):
+   см. объявление "Coin"
+  
