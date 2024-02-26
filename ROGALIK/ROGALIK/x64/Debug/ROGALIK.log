@@ -1,9 +1,5 @@
 ﻿  ROGALIK.cpp
-C:\Users\Student_19\Desktop\Repos\Academy\ROGALIK\ROGALIK\ROGALIK.cpp(199,31): error C2027: использование неопределенного типа "Coin"
-  C:\Users\Student_19\Desktop\Repos\Academy\ROGALIK\ROGALIK\ROGALIK.cpp(11,7):
-   см. объявление "Coin"
-  
-C:\Users\Student_19\Desktop\Repos\Academy\ROGALIK\ROGALIK\ROGALIK.cpp(200,17): error C2027: использование неопределенного типа "Coin"
-  C:\Users\Student_19\Desktop\Repos\Academy\ROGALIK\ROGALIK\ROGALIK.cpp(11,7):
-   см. объявление "Coin"
-  
+C:\Users\phili\Desktop\Repos\Academy\ROGALIK\ROGALIK\ROGALIK.cpp(199,31): error C2027: использование неопределенного типа "Coin"
+C:\Users\phili\Desktop\Repos\Academy\ROGALIK\ROGALIK\ROGALIK.cpp(11,7): message : см. объявление "Coin"
+C:\Users\phili\Desktop\Repos\Academy\ROGALIK\ROGALIK\ROGALIK.cpp(200,17): error C2027: использование неопределенного типа "Coin"
+C:\Users\phili\Desktop\Repos\Academy\ROGALIK\ROGALIK\ROGALIK.cpp(11,7): message : см. объявление "Coin"
