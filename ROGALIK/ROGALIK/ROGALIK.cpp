@@ -4,7 +4,7 @@
 #include <conio.h>
 #include <vector>
 using namespace std;
-char emptyChar = '.';
+char emptyChar = '-';
 
 class SuperObject;
 class Item;
@@ -128,6 +128,7 @@ public:
 
 const int HIGH = 10;
 const int WIDTH = 10;
+const char borderChar = '+';
 //char emptyChar = '.'; 
 
 int fps = 60;
@@ -145,69 +146,53 @@ void displayClearField()
     {
         for (int j = 0; j < WIDTH; ++j)
         {
-            display[i][j].clear(j, i);
-        };
+            if (i == 0 || i == HIGH - 1 || j == 0 || j == WIDTH - 1)
+            {
+                display[i][j].icon = borderChar;
+            }
+            else
+            {
+                display[i][j].clear(j, i);
+            }
+        }
     }
 }
 void displayFill()
 {
+    for (int i = 0; i < HIGH; ++i)
     {
-        for (int i = 0; i < HIGH; ++i)
+        for (int j = 0; j < WIDTH; ++j)
         {
-            for (int j = 0; j < WIDTH; ++j)
-            {
-                if (!display[i][j].into) display[i][j].icon = emptyChar;
-                else { display[i][j].icon = display[i][j].into->icon; }
-            };
+            if (!display[i][j].into)
+                display[i][j].icon = emptyChar;
+            else
+                display[i][j].icon = display[i][j].into->icon;
         }
-
-
     }
 }
 
 
-void displayOut() {
-    for (int i = 0; i < HIGH; ++i) {
-        for (int j = 0; j < WIDTH; ++j) {
-            cout << display[i][j];
+void displayOut()
+{
+    for (int i = 0; i < HIGH; ++i)
+    {
+        for (int j = 0; j < WIDTH; ++j)
+        {
+            if (i == 0 || i == HIGH - 1 || j == 0 || j == WIDTH - 1)
+            {
+                cout << borderChar << " ";
+            }
+            else
+            {
+                cout << display[i][j].icon << " ";
+            }
         }
-        cout << "\n";
+        cout << endl;
     }
 }
 
 vector<Item*> tempInventory;
 
-class Entity : public SuperObject
-{
-public:
-    int life = 1;
-    vector<Item*> inventory;
-
-    Entity() : SuperObject() {}
-    Entity(Point* placeP, char iconP, int lifeP) :
-        SuperObject(placeP, iconP), life{ lifeP } {}
-    virtual int collision_hanlder(SuperObject* obj)
-    {
-        if (typeid(obj) == typeid(Entity))
-        {
-            Entity* entity = dynamic_cast<Entity*>(obj);
-            if (entity->life < 1)
-            {
-                Point* temp;
-                temp = entity->place;
-                entity->delink(temp);
-                Coin *coin2 = new Coin;
-                coin2->link(temp);
-            }
-        }
-        /*if (typeid(obj) == typeid(Case))
-        {
-            Case* box = dynamic_cast<Case*>(obj);
-            tempInventory.swap(box.inventory);
-        }*/
-        return 1;
-    }
-};
 class Item : public SuperObject
 {
 public:
@@ -224,25 +209,75 @@ public:
 
     }
 };
+class Coin : public Item
+{
+public:
+    int amount = 1;
+    Coin() : Item() {}
+    Coin(Point* placeP, char iconP, int amountP) : Item(placeP, iconP = 'o', amountP) {};
+};
+class Weapon : public Item
+{
+public:
+    int damage;
+    Weapon(Point* placeP, char iconP, int tempP,int damage) : Item(placeP, iconP, tempP), damage(damage) {};
+};
+class Entity : public SuperObject
+{
+public:
+    int life = 1;
+    int damage = 1;
+    char hand = '+';
+    vector<Item*> inventory;
+
+    Entity() : SuperObject() {}
+    Entity(Point* placeP, char iconP, int lifeP, int damageP) :
+        SuperObject(placeP, iconP), life(lifeP), damage(damageP) {};
+    virtual int collision_hanlder(SuperObject* obj)
+    {
+        cout << typeid(*obj).name() << endl;
+        cout << typeid(Entity).name() << endl;
+        if (typeid(*obj) == typeid(Entity))
+        {
+            cout << 1;
+            Entity* entity = dynamic_cast<Entity*>(obj);
+            if (entity->life < 1)
+            {
+                Point* temp;
+                temp = entity->place;
+                entity->delink(temp);
+                Coin *coin2 = new Coin;
+                coin2->link(temp);
+            }
+            else if (entity->life > 0)
+            {
+                entity->life -= 5;
+            }
+        }
+        else if (typeid(*obj) == typeid(Weapon))
+        {
+            Weapon* weapon = dynamic_cast<Weapon*>(obj);
+            Point* temp;
+            temp = weapon->place;
+            weapon->delink(temp);
+            hand = weapon->icon;
+            damage += weapon->damage;
+        }
+
+        /*if (typeid(obj) == typeid(Case))
+        {
+            Case* box = dynamic_cast<Case*>(obj);
+            tempInventory.swap(box.inventory);
+        }*/
+        return 1;
+    }
+};
 class Case : public SuperObject
 {
 public:
     vector<Item> inventory;
     Case() : SuperObject() {}
     Case(Point* placeP, vector<Item> inv, char iconP) : SuperObject(placeP, iconP), inventory(inv) {};
-};
-class Coin : public Item
-{
-public:
-    int amount = 1;
-    Coin() : Item() {}
-    Coin(Point* placeP, char iconP, int amountP) : Item(placeP, iconP, amountP) {};
-};
-class Weapon : public Item
-{
-    char icon;
-    int damage;
-    Weapon(char icon, int damage) : icon(icon), damage(damage) {};
 };
 
 int enemyMoved[4]{ 1,2,3,4 };
@@ -258,14 +293,13 @@ int main()
             display[i][j].coord(j, i);
         }
     };
-    Entity player;
-    player.link(&display[5][5]);
-    player.icon = '@';
-    player.life = 10;
+    Entity player(&display[5][5],'@',30,5);
     Coin coin;
     vector<Item> forbox{ coin };
-    Entity enemy(&display[5][7], '$', 15);
-    Item sword(&display[3][3], '!', 2);
+    Entity enemy(&display[5][7], '$', 15, 1);
+    Entity enemy1(&display[2][2], '$', 15, 1);
+    Entity enemy2(&display[3][7], '$', 15, 1);
+    Weapon sword(&display[3][3], '!', 2, 10);
     Case box(&display[6][6], forbox,'#');
 
     //добавление объектов в список 
@@ -274,6 +308,8 @@ int main()
     objects.push_back(&sword);
 
     Coord tempCoord(0, 0);
+    
+    int turn = 1;
 
     while (main_flag)
     {
@@ -317,12 +353,16 @@ int main()
         // исполнение каких то паттернов движения, появление, применение свойств итд 
         // в общем все, что должно произойти за этот такт 
 
+        // Движение врагов
+        if (i > 3) i = 0;
         enemy.ismov = true;
         enemy.direct = enemyMoved[i];
         i++;
-        if (i > 3) i = 0;
 
 
+
+
+        turn++;
         // ---------STEP 2: processing--------- 
         // здесь же примененные действия обрабатываются, в частности - в блоке коллизии 
 
@@ -355,5 +395,7 @@ int main()
         displayOut();
         cout << keyboardPress << endl;
         Sleep(latency);
+        cout << "PLAYER'S: \n" << "HP:" << player.life << "\n" << "DMG:" << player.damage << "\n" << "IN HAND:" << player.hand << "\n";
+        cout << "ENEMY'S: \n" << "HP:" << enemy.life << "\n";
     }
 }
