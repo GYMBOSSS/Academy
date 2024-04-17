@@ -1,0 +1,14 @@
+C:\Users\phili\Desktop\TikTakGame\TikTakGame\bin\Debug\net6.0\TikTakGame.exe
+C:\Users\phili\Desktop\TikTakGame\TikTakGame\bin\Debug\net6.0\TikTakGame.deps.json
+C:\Users\phili\Desktop\TikTakGame\TikTakGame\bin\Debug\net6.0\TikTakGame.runtimeconfig.json
+C:\Users\phili\Desktop\TikTakGame\TikTakGame\bin\Debug\net6.0\TikTakGame.dll
+C:\Users\phili\Desktop\TikTakGame\TikTakGame\bin\Debug\net6.0\TikTakGame.pdb
+C:\Users\phili\Desktop\TikTakGame\TikTakGame\obj\Debug\net6.0\TikTakGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phili\Desktop\TikTakGame\TikTakGame\obj\Debug\net6.0\TikTakGame.AssemblyInfoInputs.cache
+C:\Users\phili\Desktop\TikTakGame\TikTakGame\obj\Debug\net6.0\TikTakGame.AssemblyInfo.cs
+C:\Users\phili\Desktop\TikTakGame\TikTakGame\obj\Debug\net6.0\TikTakGame.csproj.CoreCompileInputs.cache
+C:\Users\phili\Desktop\TikTakGame\TikTakGame\obj\Debug\net6.0\TikTakGame.dll
+C:\Users\phili\Desktop\TikTakGame\TikTakGame\obj\Debug\net6.0\refint\TikTakGame.dll
+C:\Users\phili\Desktop\TikTakGame\TikTakGame\obj\Debug\net6.0\TikTakGame.pdb
+C:\Users\phili\Desktop\TikTakGame\TikTakGame\obj\Debug\net6.0\TikTakGame.genruntimeconfig.cache
+C:\Users\phili\Desktop\TikTakGame\TikTakGame\obj\Debug\net6.0\ref\TikTakGame.dll

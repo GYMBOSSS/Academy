@@ -1,2 +1,3 @@
 ﻿  ROGALIK.cpp
-  ROGALIK.vcxproj -> C:\Users\Student_19\Desktop\Repos\Academy\ROGALIK\x64\Debug\ROGALIK.exe
+C:\Users\phili\Desktop\Repos\Academy\ROGALIK\ROGALIK\ROGALIK.cpp(177,12): error C2065: Item: необъявленный идентификатор
+C:\Users\phili\Desktop\Repos\Academy\ROGALIK\ROGALIK\ROGALIK.cpp(177,17): error C2059: синтаксическая ошибка: >
