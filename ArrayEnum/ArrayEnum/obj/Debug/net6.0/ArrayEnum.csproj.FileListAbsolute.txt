@@ -1,0 +1,14 @@
+C:\Users\phili\Desktop\Repos\Academy\ArrayEnum\ArrayEnum\bin\Debug\net6.0\ArrayEnum.exe
+C:\Users\phili\Desktop\Repos\Academy\ArrayEnum\ArrayEnum\bin\Debug\net6.0\ArrayEnum.deps.json
+C:\Users\phili\Desktop\Repos\Academy\ArrayEnum\ArrayEnum\bin\Debug\net6.0\ArrayEnum.runtimeconfig.json
+C:\Users\phili\Desktop\Repos\Academy\ArrayEnum\ArrayEnum\bin\Debug\net6.0\ArrayEnum.dll
+C:\Users\phili\Desktop\Repos\Academy\ArrayEnum\ArrayEnum\bin\Debug\net6.0\ArrayEnum.pdb
+C:\Users\phili\Desktop\Repos\Academy\ArrayEnum\ArrayEnum\obj\Debug\net6.0\ArrayEnum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phili\Desktop\Repos\Academy\ArrayEnum\ArrayEnum\obj\Debug\net6.0\ArrayEnum.AssemblyInfoInputs.cache
+C:\Users\phili\Desktop\Repos\Academy\ArrayEnum\ArrayEnum\obj\Debug\net6.0\ArrayEnum.AssemblyInfo.cs
+C:\Users\phili\Desktop\Repos\Academy\ArrayEnum\ArrayEnum\obj\Debug\net6.0\ArrayEnum.csproj.CoreCompileInputs.cache
+C:\Users\phili\Desktop\Repos\Academy\ArrayEnum\ArrayEnum\obj\Debug\net6.0\ArrayEnum.dll
+C:\Users\phili\Desktop\Repos\Academy\ArrayEnum\ArrayEnum\obj\Debug\net6.0\refint\ArrayEnum.dll
+C:\Users\phili\Desktop\Repos\Academy\ArrayEnum\ArrayEnum\obj\Debug\net6.0\ArrayEnum.pdb
+C:\Users\phili\Desktop\Repos\Academy\ArrayEnum\ArrayEnum\obj\Debug\net6.0\ArrayEnum.genruntimeconfig.cache
+C:\Users\phili\Desktop\Repos\Academy\ArrayEnum\ArrayEnum\obj\Debug\net6.0\ref\ArrayEnum.dll

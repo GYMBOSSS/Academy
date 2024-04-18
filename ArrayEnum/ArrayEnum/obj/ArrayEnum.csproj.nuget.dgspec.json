@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\phili\\Desktop\\Repos\\Academy\\TikTakGame\\TikTakGame\\TikTakGame.csproj": {}
+    "C:\\Users\\phili\\Desktop\\Repos\\Academy\\ArrayEnum\\ArrayEnum\\ArrayEnum.csproj": {}
   },
   "projects": {
-    "C:\\Users\\phili\\Desktop\\Repos\\Academy\\TikTakGame\\TikTakGame\\TikTakGame.csproj": {
+    "C:\\Users\\phili\\Desktop\\Repos\\Academy\\ArrayEnum\\ArrayEnum\\ArrayEnum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phili\\Desktop\\Repos\\Academy\\TikTakGame\\TikTakGame\\TikTakGame.csproj",
-        "projectName": "TikTakGame",
-        "projectPath": "C:\\Users\\phili\\Desktop\\Repos\\Academy\\TikTakGame\\TikTakGame\\TikTakGame.csproj",
+        "projectUniqueName": "C:\\Users\\phili\\Desktop\\Repos\\Academy\\ArrayEnum\\ArrayEnum\\ArrayEnum.csproj",
+        "projectName": "ArrayEnum",
+        "projectPath": "C:\\Users\\phili\\Desktop\\Repos\\Academy\\ArrayEnum\\ArrayEnum\\ArrayEnum.csproj",
         "packagesPath": "C:\\Users\\phili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phili\\Desktop\\Repos\\Academy\\TikTakGame\\TikTakGame\\obj\\",
+        "outputPath": "C:\\Users\\phili\\Desktop\\Repos\\Academy\\ArrayEnum\\ArrayEnum\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
