@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GTa+uPuvaJyutNMkLzvLkakQWBqE9v6l92pHp+NEVRZdJ0VHuMiRxE8ZRIsraLtxEDY9/lJHXTXxBUDAE6M9qA==",
+  "dgSpecHash": "VA/cszlPdoJA5SpI67tVjO0/m0J8uaL84vCh5R5Iyk47vtA8aEvgIBZ9Xs51fuGJSM9j3vpHZhQA271ZN7aBqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\phili\\Desktop\\Repos\\Academy\\ArrayEnum\\ArrayEnum\\ArrayEnum.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Repos\\Academy\\ArrayEnum\\ArrayEnum\\ArrayEnum.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512"
+  ],
   "logs": []
 }
