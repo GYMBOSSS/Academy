@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArrayEnum")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdf0b683fc71b017b3f0583edebbf5fdc377267d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f23a42a3fa1e8b15f6ec1ecdfe131c7fb4bd890")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArrayEnum")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArrayEnum")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

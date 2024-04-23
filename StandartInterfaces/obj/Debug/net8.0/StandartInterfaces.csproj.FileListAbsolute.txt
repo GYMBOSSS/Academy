@@ -1,0 +1,15 @@
+C:\Users\Student_12\Desktop\Repos\Academy\StandartInterfaces\bin\Debug\net8.0\StandartInterfaces.exe
+C:\Users\Student_12\Desktop\Repos\Academy\StandartInterfaces\bin\Debug\net8.0\StandartInterfaces.deps.json
+C:\Users\Student_12\Desktop\Repos\Academy\StandartInterfaces\bin\Debug\net8.0\StandartInterfaces.runtimeconfig.json
+C:\Users\Student_12\Desktop\Repos\Academy\StandartInterfaces\bin\Debug\net8.0\StandartInterfaces.dll
+C:\Users\Student_12\Desktop\Repos\Academy\StandartInterfaces\bin\Debug\net8.0\StandartInterfaces.pdb
+C:\Users\Student_12\Desktop\Repos\Academy\StandartInterfaces\obj\Debug\net8.0\StandartInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student_12\Desktop\Repos\Academy\StandartInterfaces\obj\Debug\net8.0\StandartInterfaces.AssemblyInfoInputs.cache
+C:\Users\Student_12\Desktop\Repos\Academy\StandartInterfaces\obj\Debug\net8.0\StandartInterfaces.AssemblyInfo.cs
+C:\Users\Student_12\Desktop\Repos\Academy\StandartInterfaces\obj\Debug\net8.0\StandartInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Student_12\Desktop\Repos\Academy\StandartInterfaces\obj\Debug\net8.0\StandartInterfaces.sourcelink.json
+C:\Users\Student_12\Desktop\Repos\Academy\StandartInterfaces\obj\Debug\net8.0\StandartInterfaces.dll
+C:\Users\Student_12\Desktop\Repos\Academy\StandartInterfaces\obj\Debug\net8.0\refint\StandartInterfaces.dll
+C:\Users\Student_12\Desktop\Repos\Academy\StandartInterfaces\obj\Debug\net8.0\StandartInterfaces.pdb
+C:\Users\Student_12\Desktop\Repos\Academy\StandartInterfaces\obj\Debug\net8.0\StandartInterfaces.genruntimeconfig.cache
+C:\Users\Student_12\Desktop\Repos\Academy\StandartInterfaces\obj\Debug\net8.0\ref\StandartInterfaces.dll
