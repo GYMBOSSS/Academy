@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\Repos\Academy\ICompareable and IClonable\ICompareable and IClonable\obj\Debug\net8.0\ICompareable and IClonable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Repos\Academy\ICompareable and IClonable\ICompareable and IClonable\obj\Debug\net8.0\ICompareable and IClonable.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Repos\Academy\ICompareable and IClonable\ICompareable and IClonable\obj\Debug\net8.0\ICompareable and IClonable.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Repos\Academy\ICompareable and IClonable\ICompareable and IClonable\obj\Debug\net8.0\ICompareable and IClonable.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Repos\Academy\ICompareable and IClonable\ICompareable and IClonable\obj\Debug\net8.0\ICompareable and IClonable.sourcelink.json
+C:\Users\Administrator\Desktop\Repos\Academy\ICompareable and IClonable\ICompareable and IClonable\bin\Debug\net8.0\ICompareable and IClonable.exe
+C:\Users\Administrator\Desktop\Repos\Academy\ICompareable and IClonable\ICompareable and IClonable\bin\Debug\net8.0\ICompareable and IClonable.deps.json
+C:\Users\Administrator\Desktop\Repos\Academy\ICompareable and IClonable\ICompareable and IClonable\bin\Debug\net8.0\ICompareable and IClonable.runtimeconfig.json
+C:\Users\Administrator\Desktop\Repos\Academy\ICompareable and IClonable\ICompareable and IClonable\bin\Debug\net8.0\ICompareable and IClonable.dll
+C:\Users\Administrator\Desktop\Repos\Academy\ICompareable and IClonable\ICompareable and IClonable\bin\Debug\net8.0\ICompareable and IClonable.pdb
+C:\Users\Administrator\Desktop\Repos\Academy\ICompareable and IClonable\ICompareable and IClonable\obj\Debug\net8.0\ICompareable and IClonable.dll
+C:\Users\Administrator\Desktop\Repos\Academy\ICompareable and IClonable\ICompareable and IClonable\obj\Debug\net8.0\refint\ICompareable and IClonable.dll
+C:\Users\Administrator\Desktop\Repos\Academy\ICompareable and IClonable\ICompareable and IClonable\obj\Debug\net8.0\ICompareable and IClonable.pdb
+C:\Users\Administrator\Desktop\Repos\Academy\ICompareable and IClonable\ICompareable and IClonable\obj\Debug\net8.0\ICompareable and IClonable.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Repos\Academy\ICompareable and IClonable\ICompareable and IClonable\obj\Debug\net8.0\ref\ICompareable and IClonable.dll
