@@ -1,0 +1,14 @@
+C:\Users\phili\Desktop\Repos\Academy\Gonochki\Gonochki\bin\Debug\net6.0\Gonochki.exe
+C:\Users\phili\Desktop\Repos\Academy\Gonochki\Gonochki\bin\Debug\net6.0\Gonochki.deps.json
+C:\Users\phili\Desktop\Repos\Academy\Gonochki\Gonochki\bin\Debug\net6.0\Gonochki.runtimeconfig.json
+C:\Users\phili\Desktop\Repos\Academy\Gonochki\Gonochki\bin\Debug\net6.0\Gonochki.dll
+C:\Users\phili\Desktop\Repos\Academy\Gonochki\Gonochki\bin\Debug\net6.0\Gonochki.pdb
+C:\Users\phili\Desktop\Repos\Academy\Gonochki\Gonochki\obj\Debug\net6.0\Gonochki.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phili\Desktop\Repos\Academy\Gonochki\Gonochki\obj\Debug\net6.0\Gonochki.AssemblyInfoInputs.cache
+C:\Users\phili\Desktop\Repos\Academy\Gonochki\Gonochki\obj\Debug\net6.0\Gonochki.AssemblyInfo.cs
+C:\Users\phili\Desktop\Repos\Academy\Gonochki\Gonochki\obj\Debug\net6.0\Gonochki.csproj.CoreCompileInputs.cache
+C:\Users\phili\Desktop\Repos\Academy\Gonochki\Gonochki\obj\Debug\net6.0\Gonochki.dll
+C:\Users\phili\Desktop\Repos\Academy\Gonochki\Gonochki\obj\Debug\net6.0\refint\Gonochki.dll
+C:\Users\phili\Desktop\Repos\Academy\Gonochki\Gonochki\obj\Debug\net6.0\Gonochki.pdb
+C:\Users\phili\Desktop\Repos\Academy\Gonochki\Gonochki\obj\Debug\net6.0\Gonochki.genruntimeconfig.cache
+C:\Users\phili\Desktop\Repos\Academy\Gonochki\Gonochki\obj\Debug\net6.0\ref\Gonochki.dll
