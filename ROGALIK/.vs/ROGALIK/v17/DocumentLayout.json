@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Repos\\Academy\\ROGALIK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AABED985-1228-45FE-A6DB-8BE7096E0050}|ROGALIK\\ROGALIK.vcxproj|C:\\Users\\Administrator\\Desktop\\Repos\\Academy\\ROGALIK\\ROGALIK\\ROGALIK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AABED985-1228-45FE-A6DB-8BE7096E0050}|ROGALIK\\ROGALIK.vcxproj|solutionrelative:ROGALIK\\ROGALIK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ROGALIK.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Repos\\Academy\\ROGALIK\\ROGALIK\\ROGALIK.cpp",
+              "RelativeDocumentMoniker": "ROGALIK\\ROGALIK.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Repos\\Academy\\ROGALIK\\ROGALIK\\ROGALIK.cpp",
+              "RelativeToolTip": "ROGALIK\\ROGALIK.cpp",
+              "ViewState": "AQIAAMMAAAAAAAAAAAAAANcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-02T14:19:29.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

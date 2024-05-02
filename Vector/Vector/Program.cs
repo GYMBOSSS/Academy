@@ -28,9 +28,9 @@ namespace SimpleProject
         {
             return new Point { x = +s.x, y = +s.y };
         }
-        public static Point operator *(int z)
+        public static Point operator * (Point point,int z)
         {
-            return new Point { x = x * z, }
+            return new Point { x = point.x * z, y = point.y * z };
         }
     }
 
@@ -56,6 +56,10 @@ namespace SimpleProject
         public static Vector operator -(Vector v)
         {
             return new Vector { C1 = -v.C1, C2 = -v.C2 };
+        }
+        public static Vector operator *(Vector v1, Vector v2)
+        {
+
         }
     }
 }

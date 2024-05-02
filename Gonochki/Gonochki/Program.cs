@@ -1,7 +1,7 @@
 ﻿using Element;
 using Vehicle.Cars;
 
-/*static bool GetBooleanValue(double chance)
+static bool GetBooleanValue(double chance)
 {
     Random random = new Random();
     double randomValue = random.NextDouble();
@@ -13,7 +13,7 @@ using Vehicle.Cars;
     {
         return false;
     }
-}*/
+}
 namespace Element
 {
     abstract class Element
@@ -56,9 +56,9 @@ namespace Vehicle
                 return false;
             }
         }
-        public Engine? Dvig { get; set; }
-        public Hodovka? Hodov { get; set; }
-        public Wheel[]? Kolesa { get { } set { } }
+        public Engine Dvig { get; set; }
+        public Hodovka Hodov { get; set; }
+        public Wheel[] Kolesa { get; set; }
         public virtual bool Move()
         {
             double chance = Dvig.Serviceability + Hodov.Serviceability;
@@ -106,7 +106,7 @@ namespace Vehicle
         }
     }
 }
-class Program
+class SimpleProject
 {
     static void Main()
     {
@@ -118,8 +118,7 @@ class Program
         Wheel koleso4 = new Wheel(1) { };
         Solaris solaris1 = new Solaris()
         {
-            Dvig = dvig1, Hodov = hdv1,
-            Kolesa = { koleso1, koleso2, koleso3, koleso4 }
+            Dvig = dvig1, Hodov = hdv1;
         }
     }
 }

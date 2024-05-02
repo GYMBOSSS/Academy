@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MPhPCSjJ9CygjtVZympzGOen848c92xTHOiNu4naCm+3WP/iDiE2QsfYpOLxkNo5zQjdn8DRAcgjRnt7NJZ7nw==",
+  "dgSpecHash": "7KvteKno7UUFyZt5LsSMppje8zOmM3Ss/u6S3wJ2XsNY5DFRCVeUXYIwnnphe9APB2Nip6AGU/7lqA5w6Iv9+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\phili\\Desktop\\Repos\\Academy\\Gonochki\\Gonochki\\Gonochki.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Repos\\Academy\\Gonochki\\Gonochki\\Gonochki.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Repos\\Academy\\Money\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67B12C2B-D777-45AC-AD53-BA0DC81A71E0}|Money\\Money.csproj|c:\\users\\administrator\\desktop\\repos\\academy\\money\\money\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B12C2B-D777-45AC-AD53-BA0DC81A71E0}|Money\\Money.csproj|solutionrelative:money\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Repos\\Academy\\Money\\Money\\Program.cs",
+              "RelativeDocumentMoniker": "Money\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Repos\\Academy\\Money\\Money\\Program.cs",
+              "RelativeToolTip": "Money\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T15:05:32.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
