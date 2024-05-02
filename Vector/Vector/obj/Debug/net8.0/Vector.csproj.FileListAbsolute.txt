@@ -1,0 +1,5 @@
+C:\Users\phili\Desktop\Repos\Academy\Vector\Vector\obj\Debug\net8.0\Vector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phili\Desktop\Repos\Academy\Vector\Vector\obj\Debug\net8.0\Vector.AssemblyInfoInputs.cache
+C:\Users\phili\Desktop\Repos\Academy\Vector\Vector\obj\Debug\net8.0\Vector.AssemblyInfo.cs
+C:\Users\phili\Desktop\Repos\Academy\Vector\Vector\obj\Debug\net8.0\Vector.csproj.CoreCompileInputs.cache
+C:\Users\phili\Desktop\Repos\Academy\Vector\Vector\obj\Debug\net8.0\Vector.sourcelink.json
