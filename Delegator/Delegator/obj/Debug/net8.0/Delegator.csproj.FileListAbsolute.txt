@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\Repos\Academy\Delegator\Delegator\bin\Debug\net8.0\Delegator.exe
+C:\Users\Administrator\Desktop\Repos\Academy\Delegator\Delegator\bin\Debug\net8.0\Delegator.deps.json
+C:\Users\Administrator\Desktop\Repos\Academy\Delegator\Delegator\bin\Debug\net8.0\Delegator.runtimeconfig.json
+C:\Users\Administrator\Desktop\Repos\Academy\Delegator\Delegator\bin\Debug\net8.0\Delegator.dll
+C:\Users\Administrator\Desktop\Repos\Academy\Delegator\Delegator\bin\Debug\net8.0\Delegator.pdb
+C:\Users\Administrator\Desktop\Repos\Academy\Delegator\Delegator\obj\Debug\net8.0\Delegator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Repos\Academy\Delegator\Delegator\obj\Debug\net8.0\Delegator.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Repos\Academy\Delegator\Delegator\obj\Debug\net8.0\Delegator.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Repos\Academy\Delegator\Delegator\obj\Debug\net8.0\Delegator.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Repos\Academy\Delegator\Delegator\obj\Debug\net8.0\Delegator.sourcelink.json
+C:\Users\Administrator\Desktop\Repos\Academy\Delegator\Delegator\obj\Debug\net8.0\Delegator.dll
+C:\Users\Administrator\Desktop\Repos\Academy\Delegator\Delegator\obj\Debug\net8.0\refint\Delegator.dll
+C:\Users\Administrator\Desktop\Repos\Academy\Delegator\Delegator\obj\Debug\net8.0\Delegator.pdb
+C:\Users\Administrator\Desktop\Repos\Academy\Delegator\Delegator\obj\Debug\net8.0\Delegator.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Repos\Academy\Delegator\Delegator\obj\Debug\net8.0\ref\Delegator.dll

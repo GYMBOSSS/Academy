@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\Repos\Academy\WinForms1\WinForms1\bin\Debug\net8.0\WinForms1.exe
+C:\Users\Administrator\Desktop\Repos\Academy\WinForms1\WinForms1\bin\Debug\net8.0\WinForms1.deps.json
+C:\Users\Administrator\Desktop\Repos\Academy\WinForms1\WinForms1\bin\Debug\net8.0\WinForms1.runtimeconfig.json
+C:\Users\Administrator\Desktop\Repos\Academy\WinForms1\WinForms1\bin\Debug\net8.0\WinForms1.dll
+C:\Users\Administrator\Desktop\Repos\Academy\WinForms1\WinForms1\bin\Debug\net8.0\WinForms1.pdb
+C:\Users\Administrator\Desktop\Repos\Academy\WinForms1\WinForms1\obj\Debug\net8.0\WinForms1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Repos\Academy\WinForms1\WinForms1\obj\Debug\net8.0\WinForms1.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Repos\Academy\WinForms1\WinForms1\obj\Debug\net8.0\WinForms1.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Repos\Academy\WinForms1\WinForms1\obj\Debug\net8.0\WinForms1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Repos\Academy\WinForms1\WinForms1\obj\Debug\net8.0\WinForms1.sourcelink.json
+C:\Users\Administrator\Desktop\Repos\Academy\WinForms1\WinForms1\obj\Debug\net8.0\WinForms1.dll
+C:\Users\Administrator\Desktop\Repos\Academy\WinForms1\WinForms1\obj\Debug\net8.0\refint\WinForms1.dll
+C:\Users\Administrator\Desktop\Repos\Academy\WinForms1\WinForms1\obj\Debug\net8.0\WinForms1.pdb
+C:\Users\Administrator\Desktop\Repos\Academy\WinForms1\WinForms1\obj\Debug\net8.0\WinForms1.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Repos\Academy\WinForms1\WinForms1\obj\Debug\net8.0\ref\WinForms1.dll
