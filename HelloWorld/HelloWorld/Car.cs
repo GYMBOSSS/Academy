@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HelloWorld
 {
-    abstract class Car
+    internal abstract class Car
     {
         public delegate bool Damaged(int dmg);
         public event Damaged? HitFromThePit;
@@ -22,6 +22,6 @@ namespace HelloWorld
             Name = pname;
         }
 
-        public Car(string pname) : this(pname, 3, 10) { }
+        public Car(string pname) : this(pname, 30, 1) { }
     }
 }
