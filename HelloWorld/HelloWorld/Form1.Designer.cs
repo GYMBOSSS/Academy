@@ -35,6 +35,7 @@
             BG2 = new PictureBox();
             HUD = new GroupBox();
             Settings = new GroupBox();
+            Jump = new Button();
             ((System.ComponentModel.ISupportInitialize)BG1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Player).BeginInit();
             ((System.ComponentModel.ISupportInitialize)BG2).BeginInit();
@@ -90,6 +91,7 @@
             // 
             // _Timer
             // 
+            _Timer.Interval = 30;
             _Timer.Tick += _Timer_Tick;
             // 
             // ShowHit
@@ -162,7 +164,7 @@
             // 
             Player.BackgroundImage = (Image)resources.GetObject("Player.BackgroundImage");
             Player.BackgroundImageLayout = ImageLayout.Stretch;
-            Player.Location = new Point(0, 302);
+            Player.Location = new Point(36, 186);
             Player.Name = "Player";
             Player.Size = new Size(100, 92);
             Player.TabIndex = 11;
@@ -203,11 +205,22 @@
             Settings.TabStop = false;
             Settings.Text = "Settings";
             // 
+            // Jump
+            // 
+            Jump.Font = new Font("Unispace", 11.9999981F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Jump.Location = new Point(62, 413);
+            Jump.Name = "Jump";
+            Jump.Size = new Size(89, 54);
+            Jump.TabIndex = 18;
+            Jump.Text = "JUMP!!!";
+            Jump.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(600, 521);
+            Controls.Add(Jump);
             Controls.Add(Settings);
             Controls.Add(HUD);
             Controls.Add(Player);
@@ -251,5 +264,6 @@
         private PictureBox BG2;
         private GroupBox HUD;
         private GroupBox Settings;
+        private Button Jump;
     }
 }

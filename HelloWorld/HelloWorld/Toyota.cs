@@ -9,7 +9,6 @@ namespace HelloWorld
 {
     internal class Toyota : Car
     {
-        public int Y { get; set; }
         public int Actiom {  get; set; }
         public Toyota(string pname) : base(pname) { Y = 0; }
 
@@ -23,12 +22,16 @@ namespace HelloWorld
             Life -= value;
             return Life > 0 ? true : false;
         }
+
         
-        public int update_Y()
+        public Point update_Point(Point _point)
         {
             //floor 302
+            int y = Gravity(_point.Y);
+            int x = _point.X;
 
-            return Y;
+            Point coord = new Point(x, y);
+            return coord;
         }
     }
 }

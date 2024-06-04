@@ -7,6 +7,7 @@ namespace HelloWorld
         private int tmr_hit;
         private bool ingame = false;
         private int tmr_meter;
+        private Point spawn = new Point(36,186);
         public Form1()
         {
             InitializeComponent();
@@ -14,7 +15,7 @@ namespace HelloWorld
             CT.HitFromThePit += CT.HitHandler;
             meter = 0;
             tmr_meter = 0;
-            CT.y = Player.Left;
+            CT.Y = Player.Left;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -55,7 +56,7 @@ namespace HelloWorld
 
         private void _Timer_Tick(object sender, EventArgs e)
         {
-            Player.Left = CT.update_Y();
+            Player.Location = CT.update_Point(spawn);
 
             meter = Math.Round(meter + CT.Speed * 0.1, 1);
 
