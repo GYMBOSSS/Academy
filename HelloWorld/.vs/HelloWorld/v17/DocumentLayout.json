@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\phili\\Desktop\\Repos\\Academy\\HelloWorld\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9260EA66-B221-4B56-B647-B0F4850CA7D8}|HelloWorld\\HelloWorld.csproj|C:\\Users\\phili\\Desktop\\Repos\\Academy\\HelloWorld\\helloworld\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9260EA66-B221-4B56-B647-B0F4850CA7D8}|HelloWorld\\HelloWorld.csproj|c:\\users\\phili\\desktop\\repos\\academy\\helloworld\\helloworld\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9260EA66-B221-4B56-B647-B0F4850CA7D8}|HelloWorld\\HelloWorld.csproj|solutionrelative:helloworld\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{9260EA66-B221-4B56-B647-B0F4850CA7D8}|HelloWorld\\HelloWorld.csproj|solutionrelative:helloworld\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9260EA66-B221-4B56-B647-B0F4850CA7D8}|HelloWorld\\HelloWorld.csproj|c:\\users\\phili\\desktop\\repos\\academy\\helloworld\\helloworld\\toyota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9260EA66-B221-4B56-B647-B0F4850CA7D8}|HelloWorld\\HelloWorld.csproj|C:\\Users\\phili\\Desktop\\Repos\\Academy\\HelloWorld\\helloworld\\toyota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9260EA66-B221-4B56-B647-B0F4850CA7D8}|HelloWorld\\HelloWorld.csproj|solutionrelative:helloworld\\toyota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -47,8 +47,7 @@
               "ViewState": "AQIAAAwAAAAAAAAAAAA5wCAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T13:42:38.488Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -61,12 +60,7 @@
               "ViewState": "AQIAAAMAAAAAAAAAAAAcwCEAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T14:23:36.053Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -81,6 +75,10 @@
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "HeavyCar.cs",
@@ -90,8 +88,7 @@
               "RelativeToolTip": "HelloWorld\\HeavyCar.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T14:19:19.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T14:19:19.595Z"
             },
             {
               "$type": "Document",
@@ -116,8 +113,7 @@
               "RelativeToolTip": "HelloWorld\\Form1.cs",
               "ViewState": "AQIAACoAAAAAAAAAAAAmwDoAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T12:40:11.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T12:40:11.74Z"
             }
           ]
         }
