@@ -1,0 +1,16 @@
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\obj\Debug\net8.0-windows\restoranManager.Form1.resources
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\obj\Debug\net8.0-windows\restoranManager.csproj.GenerateResource.cache
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\obj\Debug\net8.0-windows\restoranManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\obj\Debug\net8.0-windows\restoranManager.AssemblyInfoInputs.cache
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\obj\Debug\net8.0-windows\restoranManager.AssemblyInfo.cs
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\obj\Debug\net8.0-windows\restoranManager.csproj.CoreCompileInputs.cache
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\bin\Debug\net8.0-windows\restoranManager.exe
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\bin\Debug\net8.0-windows\restoranManager.deps.json
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\bin\Debug\net8.0-windows\restoranManager.runtimeconfig.json
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\bin\Debug\net8.0-windows\restoranManager.dll
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\bin\Debug\net8.0-windows\restoranManager.pdb
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\obj\Debug\net8.0-windows\restoranManager.dll
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\obj\Debug\net8.0-windows\refint\restoranManager.dll
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\obj\Debug\net8.0-windows\restoranManager.pdb
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\obj\Debug\net8.0-windows\restoranManager.genruntimeconfig.cache
+C:\Users\Student_12\Desktop\Repos\Academy\restoranManager\obj\Debug\net8.0-windows\ref\restoranManager.dll
