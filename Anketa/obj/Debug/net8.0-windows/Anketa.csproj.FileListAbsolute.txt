@@ -1,0 +1,17 @@
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\bin\Debug\net8.0-windows\Anketa.exe
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\bin\Debug\net8.0-windows\Anketa.deps.json
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\bin\Debug\net8.0-windows\Anketa.runtimeconfig.json
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\bin\Debug\net8.0-windows\Anketa.dll
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\bin\Debug\net8.0-windows\Anketa.pdb
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\obj\Debug\net8.0-windows\Anketa.Form1.resources
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\obj\Debug\net8.0-windows\Anketa.csproj.GenerateResource.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\obj\Debug\net8.0-windows\Anketa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\obj\Debug\net8.0-windows\Anketa.AssemblyInfoInputs.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\obj\Debug\net8.0-windows\Anketa.AssemblyInfo.cs
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\obj\Debug\net8.0-windows\Anketa.csproj.CoreCompileInputs.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\obj\Debug\net8.0-windows\Anketa.sourcelink.json
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\obj\Debug\net8.0-windows\Anketa.dll
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\obj\Debug\net8.0-windows\refint\Anketa.dll
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\obj\Debug\net8.0-windows\Anketa.pdb
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\obj\Debug\net8.0-windows\Anketa.genruntimeconfig.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Anketa\obj\Debug\net8.0-windows\ref\Anketa.dll

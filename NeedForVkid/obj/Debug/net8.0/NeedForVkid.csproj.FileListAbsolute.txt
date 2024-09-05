@@ -1,0 +1,14 @@
+C:\Users\Student_12\Desktop\Repos\Academy\NeedForVkid\bin\Debug\net8.0\NeedForVkid.exe
+C:\Users\Student_12\Desktop\Repos\Academy\NeedForVkid\bin\Debug\net8.0\NeedForVkid.deps.json
+C:\Users\Student_12\Desktop\Repos\Academy\NeedForVkid\bin\Debug\net8.0\NeedForVkid.runtimeconfig.json
+C:\Users\Student_12\Desktop\Repos\Academy\NeedForVkid\bin\Debug\net8.0\NeedForVkid.dll
+C:\Users\Student_12\Desktop\Repos\Academy\NeedForVkid\bin\Debug\net8.0\NeedForVkid.pdb
+C:\Users\Student_12\Desktop\Repos\Academy\NeedForVkid\obj\Debug\net8.0\NeedForVkid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student_12\Desktop\Repos\Academy\NeedForVkid\obj\Debug\net8.0\NeedForVkid.AssemblyInfoInputs.cache
+C:\Users\Student_12\Desktop\Repos\Academy\NeedForVkid\obj\Debug\net8.0\NeedForVkid.AssemblyInfo.cs
+C:\Users\Student_12\Desktop\Repos\Academy\NeedForVkid\obj\Debug\net8.0\NeedForVkid.csproj.CoreCompileInputs.cache
+C:\Users\Student_12\Desktop\Repos\Academy\NeedForVkid\obj\Debug\net8.0\NeedForVkid.dll
+C:\Users\Student_12\Desktop\Repos\Academy\NeedForVkid\obj\Debug\net8.0\refint\NeedForVkid.dll
+C:\Users\Student_12\Desktop\Repos\Academy\NeedForVkid\obj\Debug\net8.0\NeedForVkid.pdb
+C:\Users\Student_12\Desktop\Repos\Academy\NeedForVkid\obj\Debug\net8.0\NeedForVkid.genruntimeconfig.cache
+C:\Users\Student_12\Desktop\Repos\Academy\NeedForVkid\obj\Debug\net8.0\ref\NeedForVkid.dll

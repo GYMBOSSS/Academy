@@ -79,8 +79,8 @@ namespace restoranManager
             table_listDishes.Location = new Point(0, 0);
             table_listDishes.Name = "table_listDishes";
             table_listDishes.RowCount = 2;
-            table_listDishes.RowStyles.Add(new RowStyle(SizeType.Percent, 65.38461F));
-            table_listDishes.RowStyles.Add(new RowStyle(SizeType.Percent, 34.6153831F));
+            table_listDishes.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            table_listDishes.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             table_listDishes.Size = new Size(312, 44);
             table_listDishes.TabIndex = 20;
             // 
@@ -125,8 +125,8 @@ namespace restoranManager
             table_dish_prodList.Location = new Point(0, 0);
             table_dish_prodList.Name = "table_dish_prodList";
             table_dish_prodList.RowCount = 2;
-            table_dish_prodList.RowStyles.Add(new RowStyle(SizeType.Percent, 65.38461F));
-            table_dish_prodList.RowStyles.Add(new RowStyle(SizeType.Percent, 34.6153831F));
+            table_dish_prodList.RowStyles.Add(new RowStyle(SizeType.Percent, 52.272728F));
+            table_dish_prodList.RowStyles.Add(new RowStyle(SizeType.Percent, 47.727272F));
             table_dish_prodList.Size = new Size(312, 44);
             table_dish_prodList.TabIndex = 21;
             // 
@@ -274,7 +274,7 @@ namespace restoranManager
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1062, 705);
+            ClientSize = new Size(1050, 705);
             Controls.Add(btn_dish_del);
             Controls.Add(list_dishes);
             Controls.Add(prod_load_name);
