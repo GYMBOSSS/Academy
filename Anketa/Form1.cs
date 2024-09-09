@@ -2,40 +2,66 @@ namespace Anketa
 {
     public partial class Form1 : Form
     {
+        private string reposway = "C:\\Repos\\Academy\\Anketa\\UserData.txt";
+        private FileInfo reposfile;
+        List <User> userarr;
+        string[] arr;
         public Form1()
         {
             InitializeComponent();
-
-            MNTB.Visible = MNCHB.Checked;
-            label6.Visible = !MNCHB.Checked;
-            HNTB.Visible = HNCHB.Checked;
-            label6.Visible = !HNCHB.Checked;
-            WPTB.Visible = WPCHB.Checked;
-            label8.Visible = !WPCHB.Checked;
+            reposfile = new FileInfo(reposway);
+            userarr = new List <User> ();
+            if (!reposfile.Exists)
+            {
+                File.Create(reposway);
+            }
+            arr = File.ReadAllLines(reposfile.FullName);
+            for (int i = 0; i < arr.Length; i = i + 6)
+            {
+                userarr[i / 6] = new User(arr[i], arr[i+1], arr[i + 2], arr[i + 3], arr[i + 4], arr[i + 5]);
+            }
 
         }
         private void ERROR(string message)
         {
-            MessageBox.Show($"Ты чёто не ввёл{message}, иди проверься", "ERRRRRROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show($"Ты не ввёл {message}, иди проверься", "ERRRRRROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             FIOTB.Clear(); MNTB.Clear(); HNTB.Clear(); WPTB.Clear();
         }
         private void REGGED()
         {
             MessageBox.Show("Красава, зареган", "RRRRRREGGED", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string Gender;
+            string MobNumber;
+            string HomNumber;
+            if (MGRB.Checked) { Gender = "Male"; }
+            else { Gender = "Female"; }
+            if(!MNCHB.Checked) { MobNumber = "не указано"; }
+            else { MobNumber = MNTB.Text; }
+            if (!HNCHB.Checked) { HomNumber = "не указано"; }
+            else { HomNumber = HNTB.Text; }
+            User neww = new User(FIOTB.Text,WPTB.Text, MobNumber, HomNumber, Gender, PWTB.Text);
+            userarr.Add(neww);
+            FIOTB.Clear(); MNTB.Clear(); HNTB.Clear(); WPTB.Clear();
+            File.AppendAllText(reposway, neww.FIO);
+            File.AppendAllText(reposway, neww.WorPl);
+            File.AppendAllText(reposway, neww.MobNum);
+            File.AppendAllText(reposway, neww.HomNum);
+            File.AppendAllText(reposway, neww.Gen);
+            File.AppendAllText(reposway, neww.PassWord);
         }
 
         private void REGB_Click(object sender, EventArgs e)
         {
-            List<string> not = new List<string>();
-            string not = "";
-            if (FIOTB.Text != "")
-            {
-
-            }
-            else
-            {
-                not = not + "фамилию"
-            }
+            string netu = "";
+            List<string> netuarr = new List<string>();
+            if (FIOTB.Text == "") { netuarr.Add("фамилию"); }
+            if (WPTB.Text == "") { netuarr.Add("место работы"); }
+            if (HNCHB.Checked) { if (HNTB.Text == "") { netuarr.Add("домашний телефон"); } }
+            if (MNCHB.Checked) { if (MNTB.Text == "") { netuarr.Add("мобильный телефон"); } }
+            if (!MGRB.Checked & !FGRB.Checked) { netuarr.Add("пол"); }
+            netu = string.Join(',', netuarr);
+            if (netu == "") { REGGED(); }
+            else { ERROR(netu); }
         }
 
         private void MNCHB_CheckedChanged(object sender, EventArgs e)
@@ -50,10 +76,34 @@ namespace Anketa
             label7.Visible = !HNCHB.Checked;
         }
 
-        private void WPCHB_CheckedChanged(object sender, EventArgs e)
+        private void Registration_Click(object sender, EventArgs e)
         {
-            WPTB.Visible = WPCHB.Checked;
-            label8.Visible = !WPCHB.Checked;
+            label1.Visible = true;
+            label2.Visible = true;
+            label3.Visible = true;
+            label4.Visible = true;
+            label5.Visible = true;
+            label6.Visible = !MNCHB.Checked;
+            label7.Visible = !HNCHB.Checked;
+            label8.Visible = true;
+            FIOTB.Visible = true;
+            WPTB.Visible = true;
+            HNCHB.Visible = true;
+            HNTB.Visible = (bool)HNCHB.Checked;
+            MNCHB.Visible = true;
+            MNTB.Visible = (bool)MNCHB.Checked;
+            MGRB.Visible = true;
+            FGRB.Visible = true;
+            REGB.Visible = true;
+            PWTB.Visible = true;
+            
+            Registration.Visible = false;
+            Enter.Visible = false;
+        }
+
+        private void Enter_Click(object sender, EventArgs e)
+        {
+            for(int i = 0; i < arr.Length; i = i + 6)
         }
     }
 }
