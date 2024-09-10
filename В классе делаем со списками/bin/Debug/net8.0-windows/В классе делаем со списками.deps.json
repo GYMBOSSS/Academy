@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "В классе делаем со списками/1.0.0": {
+        "runtime": {
+          "В классе делаем со списками.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "В классе делаем со списками/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

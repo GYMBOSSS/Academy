@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             FIOTB = new TextBox();
             MNTB = new TextBox();
             HNTB = new TextBox();
@@ -42,12 +43,21 @@
             HNCHB = new CheckBox();
             label6 = new Label();
             label7 = new Label();
-            WPTB = new TextBox();
             label4 = new Label();
             Registration = new Button();
             Enter = new Button();
             label8 = new Label();
             PWTB = new TextBox();
+            EnterMenu = new ContextMenuStrip(components);
+            toolStripTextBox1 = new ToolStripTextBox();
+            EnterMenu2 = new ContextMenuStrip(components);
+            toolStripTextBox2 = new ToolStripTextBox();
+            FIOenter = new TextBox();
+            PWenter = new TextBox();
+            Enter2 = new Button();
+            WPCB = new ComboBox();
+            EnterMenu.SuspendLayout();
+            EnterMenu2.SuspendLayout();
             SuspendLayout();
             // 
             // FIOTB
@@ -141,7 +151,7 @@
             // REGB
             // 
             REGB.Font = new Font("Segoe UI", 20F);
-            REGB.Location = new Point(19, 237);
+            REGB.Location = new Point(19, 234);
             REGB.Name = "REGB";
             REGB.Size = new Size(220, 47);
             REGB.TabIndex = 11;
@@ -155,9 +165,8 @@
             MNCHB.AutoSize = true;
             MNCHB.Location = new Point(245, 131);
             MNCHB.Name = "MNCHB";
-            MNCHB.Size = new Size(83, 19);
+            MNCHB.Size = new Size(15, 14);
             MNCHB.TabIndex = 12;
-            MNCHB.Text = "checkBox1";
             MNCHB.UseVisualStyleBackColor = true;
             MNCHB.Visible = false;
             MNCHB.CheckedChanged += MNCHB_CheckedChanged;
@@ -167,9 +176,8 @@
             HNCHB.AutoSize = true;
             HNCHB.Location = new Point(245, 99);
             HNCHB.Name = "HNCHB";
-            HNCHB.Size = new Size(83, 19);
+            HNCHB.Size = new Size(15, 14);
             HNCHB.TabIndex = 13;
-            HNCHB.Text = "checkBox2";
             HNCHB.UseVisualStyleBackColor = true;
             HNCHB.Visible = false;
             HNCHB.CheckedChanged += HNCHB_CheckedChanged;
@@ -194,14 +202,6 @@
             label7.Text = "не указано";
             label7.Visible = false;
             // 
-            // WPTB
-            // 
-            WPTB.Location = new Point(139, 67);
-            WPTB.Name = "WPTB";
-            WPTB.Size = new Size(100, 23);
-            WPTB.TabIndex = 3;
-            WPTB.Visible = false;
-            // 
             // label4
             // 
             label4.AutoSize = true;
@@ -215,7 +215,7 @@
             // Registration
             // 
             Registration.Font = new Font("Segoe UI", 16F);
-            Registration.Location = new Point(52, 133);
+            Registration.Location = new Point(322, 132);
             Registration.Name = "Registration";
             Registration.Size = new Size(167, 93);
             Registration.TabIndex = 17;
@@ -226,7 +226,7 @@
             // Enter
             // 
             Enter.Font = new Font("Segoe UI", 16F);
-            Enter.Location = new Point(52, 21);
+            Enter.Location = new Point(322, 20);
             Enter.Name = "Enter";
             Enter.Size = new Size(167, 76);
             Enter.TabIndex = 18;
@@ -252,11 +252,75 @@
             PWTB.TabIndex = 20;
             PWTB.Visible = false;
             // 
+            // EnterMenu
+            // 
+            EnterMenu.Items.AddRange(new ToolStripItem[] { toolStripTextBox1 });
+            EnterMenu.Name = "contextMenuStrip1";
+            EnterMenu.Size = new Size(161, 29);
+            // 
+            // toolStripTextBox1
+            // 
+            toolStripTextBox1.Name = "toolStripTextBox1";
+            toolStripTextBox1.Size = new Size(100, 23);
+            // 
+            // EnterMenu2
+            // 
+            EnterMenu2.Items.AddRange(new ToolStripItem[] { toolStripTextBox2 });
+            EnterMenu2.Name = "EnterMenu2";
+            EnterMenu2.Size = new Size(161, 29);
+            // 
+            // toolStripTextBox2
+            // 
+            toolStripTextBox2.Name = "toolStripTextBox2";
+            toolStripTextBox2.Size = new Size(100, 23);
+            // 
+            // FIOenter
+            // 
+            FIOenter.Location = new Point(337, 143);
+            FIOenter.Name = "FIOenter";
+            FIOenter.Size = new Size(134, 23);
+            FIOenter.TabIndex = 21;
+            FIOenter.Visible = false;
+            // 
+            // PWenter
+            // 
+            PWenter.Location = new Point(337, 185);
+            PWenter.Name = "PWenter";
+            PWenter.Size = new Size(134, 23);
+            PWenter.TabIndex = 22;
+            PWenter.Visible = false;
+            // 
+            // Enter2
+            // 
+            Enter2.Font = new Font("Segoe UI", 16F);
+            Enter2.Location = new Point(322, 20);
+            Enter2.Name = "Enter2";
+            Enter2.Size = new Size(167, 76);
+            Enter2.TabIndex = 23;
+            Enter2.Text = "Войти";
+            Enter2.UseVisualStyleBackColor = true;
+            Enter2.Visible = false;
+            Enter2.Click += Enter2_Click;
+            // 
+            // WPCB
+            // 
+            WPCB.FormattingEnabled = true;
+            WPCB.Items.AddRange(new object[] { "пограмист", "не пограмист" });
+            WPCB.Location = new Point(139, 62);
+            WPCB.Name = "WPCB";
+            WPCB.Size = new Size(121, 23);
+            WPCB.TabIndex = 24;
+            WPCB.Visible = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(262, 283);
+            ClientSize = new Size(542, 283);
+            Controls.Add(WPCB);
+            Controls.Add(Enter2);
+            Controls.Add(PWenter);
+            Controls.Add(FIOenter);
             Controls.Add(PWTB);
             Controls.Add(label8);
             Controls.Add(Enter);
@@ -273,12 +337,15 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(WPTB);
             Controls.Add(HNTB);
             Controls.Add(MNTB);
             Controls.Add(FIOTB);
             Name = "Form1";
             Text = "Form1";
+            EnterMenu.ResumeLayout(false);
+            EnterMenu.PerformLayout();
+            EnterMenu2.ResumeLayout(false);
+            EnterMenu2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -299,11 +366,18 @@
         private CheckBox HNCHB;
         private Label label6;
         private Label label7;
-        private TextBox WPTB;
         private Label label4;
         private Button Registration;
         private Button Enter;
         private Label label8;
         private TextBox PWTB;
+        private ContextMenuStrip EnterMenu;
+        private ToolStripTextBox toolStripTextBox1;
+        private ContextMenuStrip EnterMenu2;
+        private ToolStripTextBox toolStripTextBox2;
+        private TextBox FIOenter;
+        private TextBox PWenter;
+        private Button Enter2;
+        private ComboBox WPCB;
     }
 }

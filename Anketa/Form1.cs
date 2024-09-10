@@ -2,15 +2,15 @@ namespace Anketa
 {
     public partial class Form1 : Form
     {
-        private string reposway = "C:\\Repos\\Academy\\Anketa\\UserData.txt";
+        private string reposway = "UserDDData.txt";
         private FileInfo reposfile;
-        List <User> userarr;
+        List<User> userarr;
         string[] arr;
         public Form1()
         {
             InitializeComponent();
             reposfile = new FileInfo(reposway);
-            userarr = new List <User> ();
+            userarr = new List<User>();
             if (!reposfile.Exists)
             {
                 File.Create(reposway);
@@ -18,14 +18,16 @@ namespace Anketa
             arr = File.ReadAllLines(reposfile.FullName);
             for (int i = 0; i < arr.Length; i = i + 6)
             {
-                userarr[i / 6] = new User(arr[i], arr[i+1], arr[i + 2], arr[i + 3], arr[i + 4], arr[i + 5]);
+                
+                User newww = new User(arr[i], arr[i + 1], arr[i + 2], arr[i + 3], arr[i + 4], arr[i + 5]);
+                userarr.Add(newww);  
             }
 
         }
         private void ERROR(string message)
         {
             MessageBox.Show($"Ты не ввёл {message}, иди проверься", "ERRRRRROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            FIOTB.Clear(); MNTB.Clear(); HNTB.Clear(); WPTB.Clear();
+            FIOTB.Clear(); MNTB.Clear(); HNTB.Clear();
         }
         private void REGGED()
         {
@@ -35,19 +37,23 @@ namespace Anketa
             string HomNumber;
             if (MGRB.Checked) { Gender = "Male"; }
             else { Gender = "Female"; }
-            if(!MNCHB.Checked) { MobNumber = "не указано"; }
+            if (!MNCHB.Checked) { MobNumber = "не указано"; }
             else { MobNumber = MNTB.Text; }
             if (!HNCHB.Checked) { HomNumber = "не указано"; }
             else { HomNumber = HNTB.Text; }
-            User neww = new User(FIOTB.Text,WPTB.Text, MobNumber, HomNumber, Gender, PWTB.Text);
+            User neww = new User(FIOTB.Text, WPCB.Text, MobNumber, HomNumber, Gender, PWTB.Text);
             userarr.Add(neww);
-            FIOTB.Clear(); MNTB.Clear(); HNTB.Clear(); WPTB.Clear();
-            File.AppendAllText(reposway, neww.FIO);
-            File.AppendAllText(reposway, neww.WorPl);
-            File.AppendAllText(reposway, neww.MobNum);
-            File.AppendAllText(reposway, neww.HomNum);
-            File.AppendAllText(reposway, neww.Gen);
-            File.AppendAllText(reposway, neww.PassWord);
+            FIOTB.Clear(); MNTB.Clear(); HNTB.Clear();
+            if (arr.Length != 0)
+            {
+                File.AppendAllText(reposway, "\n" + neww.FIO);
+            }
+            else { File.AppendAllText(reposway, neww.FIO); }
+            File.AppendAllText(reposway, "\n" + neww.WorPl);
+            File.AppendAllText(reposway, "\n" + neww.MobNum);
+            File.AppendAllText(reposway, "\n" + neww.HomNum);
+            File.AppendAllText(reposway, "\n" + neww.Gen);
+            File.AppendAllText(reposway, "\n" + neww.PassWord);
         }
 
         private void REGB_Click(object sender, EventArgs e)
@@ -55,7 +61,7 @@ namespace Anketa
             string netu = "";
             List<string> netuarr = new List<string>();
             if (FIOTB.Text == "") { netuarr.Add("фамилию"); }
-            if (WPTB.Text == "") { netuarr.Add("место работы"); }
+            if (WPCB.Text == "") { netuarr.Add("место работы"); }
             if (HNCHB.Checked) { if (HNTB.Text == "") { netuarr.Add("домашний телефон"); } }
             if (MNCHB.Checked) { if (MNTB.Text == "") { netuarr.Add("мобильный телефон"); } }
             if (!MGRB.Checked & !FGRB.Checked) { netuarr.Add("пол"); }
@@ -87,7 +93,7 @@ namespace Anketa
             label7.Visible = !HNCHB.Checked;
             label8.Visible = true;
             FIOTB.Visible = true;
-            WPTB.Visible = true;
+            WPCB.Visible = true;
             HNCHB.Visible = true;
             HNTB.Visible = (bool)HNCHB.Checked;
             MNCHB.Visible = true;
@@ -96,14 +102,33 @@ namespace Anketa
             FGRB.Visible = true;
             REGB.Visible = true;
             PWTB.Visible = true;
-            
+
             Registration.Visible = false;
             Enter.Visible = false;
+            Enter2.Visible = false;
         }
 
         private void Enter_Click(object sender, EventArgs e)
         {
-            for(int i = 0; i < arr.Length; i = i + 6)
+            Registration.Visible = false;
+            Enter.Visible = false;
+            Enter2.Visible = true;
+            FIOenter.Visible = true;
+            PWenter.Visible = true;
+        }
+
+        private void Enter2_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < userarr.Count; i++)
+            {
+                if (userarr[i].FIO == FIOenter.Text)
+                {
+                    if (userarr[i].PassWord == PWenter.Text)
+                    {
+                        MessageBox.Show("Ты вошёл, красава", "ENTER", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+            }
         }
     }
 }

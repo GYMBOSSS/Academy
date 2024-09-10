@@ -1,0 +1,17 @@
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\bin\Debug\net8.0-windows\В классе делаем со списками.exe
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\bin\Debug\net8.0-windows\В классе делаем со списками.deps.json
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\bin\Debug\net8.0-windows\В классе делаем со списками.runtimeconfig.json
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\bin\Debug\net8.0-windows\В классе делаем со списками.dll
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\bin\Debug\net8.0-windows\В классе делаем со списками.pdb
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\obj\Debug\net8.0-windows\В_классе_делаем_со_списками.Form1.resources
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\obj\Debug\net8.0-windows\В классе делаем со списками.csproj.GenerateResource.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\obj\Debug\net8.0-windows\В классе делаем со списками.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\obj\Debug\net8.0-windows\В классе делаем со списками.AssemblyInfoInputs.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\obj\Debug\net8.0-windows\В классе делаем со списками.AssemblyInfo.cs
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\obj\Debug\net8.0-windows\В классе делаем со списками.csproj.CoreCompileInputs.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\obj\Debug\net8.0-windows\В классе делаем со списками.sourcelink.json
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\obj\Debug\net8.0-windows\В классе делаем со списками.dll
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\obj\Debug\net8.0-windows\refint\В классе делаем со списками.dll
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\obj\Debug\net8.0-windows\В классе делаем со списками.pdb
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\obj\Debug\net8.0-windows\В классе делаем со списками.genruntimeconfig.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\В классе делаем со списками\obj\Debug\net8.0-windows\ref\В классе делаем со списками.dll
