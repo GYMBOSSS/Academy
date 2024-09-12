@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\PROGERS\\Students\\\u041F22\\Windows Forms\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WF_AddForms01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24EDF680-AB0E-41FB-9182-05136C59A463}|WF_AddForms01.csproj|\\\\progers\\students\\\u043F22\\windows forms\\\u043F\u0440\u0438\u043C\u0435\u0440\u044B\\wf_addforms01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EDF680-AB0E-41FB-9182-05136C59A463}|WF_AddForms01.csproj|\\\\progers\\students\\\u043F22\\windows forms\\\u043F\u0440\u0438\u043C\u0435\u0440\u044B\\wf_addforms01\\secondform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EDF680-AB0E-41FB-9182-05136C59A463}|WF_AddForms01.csproj|\\\\progers\\students\\\u043F22\\windows forms\\\u043F\u0440\u0438\u043C\u0435\u0440\u044B\\wf_addforms01\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EDF680-AB0E-41FB-9182-05136C59A463}|WF_AddForms01.csproj|\\\\progers\\students\\\u043F22\\windows forms\\\u043F\u0440\u0438\u043C\u0435\u0440\u044B\\wf_addforms01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EDF680-AB0E-41FB-9182-05136C59A463}|WF_AddForms01.csproj|\\\\progers\\students\\\u043F22\\windows forms\\\u043F\u0440\u0438\u043C\u0435\u0440\u044B\\wf_addforms01\\secondform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EDF680-AB0E-41FB-9182-05136C59A463}|WF_AddForms01.csproj|\\\\progers\\students\\\u043F22\\windows forms\\\u043F\u0440\u0438\u043C\u0435\u0440\u044B\\wf_addforms01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SecondForm.cs",
+              "DocumentMoniker": "\\\\PROGERS\\Students\\\u041F22\\Windows Forms\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WF_AddForms01\\SecondForm.cs",
+              "RelativeDocumentMoniker": "SecondForm.cs",
+              "ToolTip": "\\\\PROGERS\\Students\\\u041F22\\Windows Forms\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WF_AddForms01\\SecondForm.cs",
+              "RelativeToolTip": "SecondForm.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswBoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T14:11:33.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SecondForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "\\\\PROGERS\\Students\\\u041F22\\Windows Forms\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WF_AddForms01\\SecondForm.cs",
+              "RelativeDocumentMoniker": "SecondForm.cs",
+              "ToolTip": "\\\\PROGERS\\Students\\\u041F22\\Windows Forms\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WF_AddForms01\\SecondForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "SecondForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T14:07:28.256Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "\\\\PROGERS\\Students\\\u041F22\\Windows Forms\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WF_AddForms01\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "\\\\PROGERS\\Students\\\u041F22\\Windows Forms\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WF_AddForms01\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T13:02:44.221Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "\\\\PROGERS\\Students\\\u041F22\\Windows Forms\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WF_AddForms01\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "\\\\PROGERS\\Students\\\u041F22\\Windows Forms\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WF_AddForms01\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAowGIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T12:51:52.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "\\\\PROGERS\\Students\\\u041F22\\Windows Forms\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WF_AddForms01\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "\\\\PROGERS\\Students\\\u041F22\\Windows Forms\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WF_AddForms01\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowB4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T12:51:26.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "\\\\PROGERS\\Students\\\u041F22\\Windows Forms\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WF_AddForms01\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "\\\\PROGERS\\Students\\\u041F22\\Windows Forms\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WF_AddForms01\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T12:43:21.726Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
