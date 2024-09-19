@@ -65,6 +65,7 @@
             SchetB.TabIndex = 1;
             SchetB.Text = "Посчитать";
             SchetB.UseVisualStyleBackColor = true;
+            SchetB.Click += SchetB_Click;
             // 
             // name_tb
             // 
@@ -127,7 +128,7 @@
             // PetCB
             // 
             PetCB.FormattingEnabled = true;
-            PetCB.Items.AddRange(new object[] { "АИ-92", "АИ-95", "АИ-98", "АИ-80" });
+            PetCB.Items.AddRange(new object[] { "АИ-92", "АИ-95", "АИ-80" });
             PetCB.Location = new Point(62, 93);
             PetCB.Name = "PetCB";
             PetCB.Size = new Size(121, 23);
@@ -195,9 +196,9 @@
             label3.AutoSize = true;
             label3.Location = new Point(12, 216);
             label3.Name = "label3";
-            label3.Size = new Size(51, 15);
+            label3.Size = new Size(50, 15);
             label3.TabIndex = 14;
-            label3.Text = "Car type";
+            label3.Text = "Avg spd";
             label3.Visible = false;
             // 
             // RegFB
@@ -220,6 +221,7 @@
             BackB.Text = "Обратно";
             BackB.UseVisualStyleBackColor = true;
             BackB.Visible = false;
+            BackB.Click += BackB_Click;
             // 
             // Form1
             // 

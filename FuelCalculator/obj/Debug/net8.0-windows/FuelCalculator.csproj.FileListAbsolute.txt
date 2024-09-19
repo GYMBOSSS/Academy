@@ -15,3 +15,4 @@ C:\Users\Student_12\Desktop\Repos\Academy\Academy\FuelCalculator\obj\Debug\net8.
 C:\Users\Student_12\Desktop\Repos\Academy\Academy\FuelCalculator\obj\Debug\net8.0-windows\FuelCalculator.pdb
 C:\Users\Student_12\Desktop\Repos\Academy\Academy\FuelCalculator\obj\Debug\net8.0-windows\FuelCalculator.genruntimeconfig.cache
 C:\Users\Student_12\Desktop\Repos\Academy\Academy\FuelCalculator\obj\Debug\net8.0-windows\ref\FuelCalculator.dll
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\FuelCalculator\obj\Debug\net8.0-windows\FuelCalculator.Form2.resources
