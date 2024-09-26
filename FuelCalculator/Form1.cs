@@ -11,12 +11,16 @@ namespace FuelCalculator
         private string[] arr;
         private Form2 form2;
         string gr;
-        double dis;
+        double day_dis;
+        double week_dis;
+        double month_dis;
         public Form1()
         {
             InitializeComponent();
             gr = "";
-            dis = 0;
+            double day_dis = 0;
+            double week_dis = 0;
+            double month_dis = 0;
             data_file = new FileInfo(data_path);
             if (!data_file.Exists) { File.Create(data_path); }
             arr = File.ReadAllLines(data_file.FullName);
@@ -31,7 +35,9 @@ namespace FuelCalculator
         public void retFromF2()
         {
             gr = form2.gr;
-            dis = form2.dis;
+            day_dis = form2.day_dis;
+            week_dis = form2.week_dis;
+            month_dis = form2.month_dis;
         }
 
         byte[] ToByte(string str)
@@ -151,15 +157,40 @@ namespace FuelCalculator
             form2.Owner = this;
             form2.ShowDialog();
             int k = 0;
+            double[] arr = new double[7];
+            List<Car> cars = new List<Car>();
             List<double> t = new List<double>();
+            List<object[]> fuel_types = new List<object[]>();
             for (int i = 0; i < carray.Count; i++) 
             {
                 if ((carray[i].car_type).ToString() == gr)
                 {
+                    cars.Add(carray[i]);
                     k++;
                 }
-            }/*
-            x = (dis/k)*/
+            }
+            double onday_percar = day_dis / k;
+            for (int i = 0; i < cars.Count; i++)
+            {
+                if(fuel_types.Count == 0 || !fuel_types.Contains((carray[i].fuel_type).ToString())) 
+                {
+                    object[] a = new object[2];
+                    a[0] = carray[i].fuel_type;
+                    a[1] = 0;
+                    fuel_types.Add(a);
+                }
+
+            }
+            double onweek_percar = week_dis / k;
+            for (int i = 0; i < carray.Count; i++)
+            {
+
+            }
+            double onmonth_percar = month_dis / k;
+            for (int i = 0; i < carray.Count; i++)
+            {
+
+            }
         }
     }
 }
