@@ -153,15 +153,13 @@ namespace FuelCalculator
 
         private void SchetB_Click(object sender, EventArgs e)
         {
-            form2 = new Form2(this);
-            form2.Owner = this;
-            form2.ShowDialog();
             int k = 0;
             double[] arr = new double[7];
             List<Car> cars = new List<Car>();
             List<double> t = new List<double>();
-            List<object[]> fuel_types = new List<object[]>();
-            for (int i = 0; i < carray.Count; i++) 
+            List<string> fuel_types = new List<string>();
+            List<double> fuel_types_cons = new List<double>();
+            for (int i = 0; i < carray.Count; i++)
             {
                 if ((carray[i].car_type).ToString() == gr)
                 {
@@ -172,25 +170,76 @@ namespace FuelCalculator
             double onday_percar = day_dis / k;
             for (int i = 0; i < cars.Count; i++)
             {
-                if(fuel_types.Count == 0 || !fuel_types.Contains((carray[i].fuel_type).ToString())) 
+                if (fuel_types.Count == 0 || !fuel_types.Contains((cars[i].fuel_type).ToString()))
                 {
-                    object[] a = new object[2];
-                    a[0] = carray[i].fuel_type;
-                    a[1] = 0;
-                    fuel_types.Add(a);
+                    fuel_types.Add((cars[i].fuel_type).ToString());
+                    fuel_types_cons.Add(0);
                 }
-
+                for (int j = 0; j < fuel_types.Count; j++)
+                {
+                    if ((cars[i].fuel_type).ToString() == fuel_types[j])
+                    {
+                        fuel_types_cons[j] += onday_percar / cars[i].fuel_cons;
+                    }
+                }
             }
+            for (int i = 0; i < fuel_types.Count; i++)
+            {
+                MessageBox.Show((fuel_types_cons[i]).ToString(), $"{fuel_types[i]} за сутки", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            fuel_types.Clear();
+            fuel_types_cons.Clear();
             double onweek_percar = week_dis / k;
-            for (int i = 0; i < carray.Count; i++)
+            for (int i = 0; i < cars.Count; i++)
             {
-
+                if (fuel_types.Count == 0 || !fuel_types.Contains((cars[i].fuel_type).ToString()))
+                {
+                    fuel_types.Add((cars[i].fuel_type).ToString());
+                    fuel_types_cons.Add(0);
+                }
+                for (int j = 0; j < fuel_types.Count; j++)
+                {
+                    if ((cars[i].fuel_type).ToString() == fuel_types[j])
+                    {
+                        fuel_types_cons[j] += onweek_percar / cars[i].fuel_cons;
+                    }
+                }
             }
+            for (int i = 0; i < fuel_types.Count; i++)
+            {
+                MessageBox.Show((fuel_types_cons[i]).ToString(), $"{fuel_types[i]} за неделю", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            fuel_types.Clear();
+            fuel_types_cons.Clear();
             double onmonth_percar = month_dis / k;
-            for (int i = 0; i < carray.Count; i++)
+            for (int i = 0; i < cars.Count; i++)
             {
-
+                if (fuel_types.Count == 0 || !fuel_types.Contains((cars[i].fuel_type).ToString()))
+                {
+                    fuel_types.Add((cars[i].fuel_type).ToString());
+                    fuel_types_cons.Add(0);
+                }
+                for (int j = 0; j < fuel_types.Count; j++)
+                {
+                    if ((cars[i].fuel_type).ToString() == fuel_types[j])
+                    {
+                        fuel_types_cons[j] += onmonth_percar / cars[i].fuel_cons;
+                    }
+                }
             }
+            for (int i = 0; i < fuel_types.Count; i++)
+            {
+                MessageBox.Show((fuel_types_cons[i]).ToString(), $"{fuel_types[i]} за мес€ц", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            fuel_types.Clear();
+            fuel_types_cons.Clear();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            form2 = new Form2(this);
+            form2.Owner = this;
+            form2.ShowDialog();
         }
     }
 }
