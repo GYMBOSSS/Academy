@@ -1,0 +1,17 @@
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\bin\Debug\net8.0-windows\Checker.exe
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\bin\Debug\net8.0-windows\Checker.deps.json
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\bin\Debug\net8.0-windows\Checker.runtimeconfig.json
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\bin\Debug\net8.0-windows\Checker.dll
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\bin\Debug\net8.0-windows\Checker.pdb
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\obj\Debug\net8.0-windows\Checker.Form1.resources
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\obj\Debug\net8.0-windows\Checker.csproj.GenerateResource.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\obj\Debug\net8.0-windows\Checker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\obj\Debug\net8.0-windows\Checker.AssemblyInfoInputs.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\obj\Debug\net8.0-windows\Checker.AssemblyInfo.cs
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\obj\Debug\net8.0-windows\Checker.csproj.CoreCompileInputs.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\obj\Debug\net8.0-windows\Checker.sourcelink.json
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\obj\Debug\net8.0-windows\Checker.dll
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\obj\Debug\net8.0-windows\refint\Checker.dll
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\obj\Debug\net8.0-windows\Checker.pdb
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\obj\Debug\net8.0-windows\Checker.genruntimeconfig.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Checker\obj\Debug\net8.0-windows\ref\Checker.dll

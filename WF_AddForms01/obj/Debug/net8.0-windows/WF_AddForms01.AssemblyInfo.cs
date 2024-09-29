@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WF_AddForms01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+713a224bb8cb6de6bf9616f4a4bf9258e94ef1ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbd7ed62ea4ad2cfaf32c09cb7ba6812899ade1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("WF_AddForms01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WF_AddForms01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NeedForVkid")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbd7ed62ea4ad2cfaf32c09cb7ba6812899ade1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("NeedForVkid")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NeedForVkid")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
