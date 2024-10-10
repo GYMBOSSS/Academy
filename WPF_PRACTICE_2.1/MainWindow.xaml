@@ -1,0 +1,35 @@
+﻿<Window x:Class="WPF_PRACTICE_2._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_PRACTICE_2._1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="435" Width="485">
+    <Grid>
+        <DockPanel LastChildFill="True">
+            <Button x:Name="REKLAMA1" DockPanel.Dock="Left" Content="Реклама" Click="REKLAMA1_Click"></Button>
+            <Button x:Name="REKLAMA2" DockPanel.Dock="Right" Content="Реклама" Click="REKLAMA1_Click"></Button>
+            <Grid x:Name="KONTAKTI" DockPanel.Dock="Bottom">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label x:Name="KONTAKT1" Grid.Row="0" Content="1337"></Label>
+                <Label x:Name="KONTAKT2" Grid.Row="1" Content="322"></Label>
+            </Grid>
+            <Grid x:Name="PANELKA" DockPanel.Dock="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Button x:Name="MENUB1" DockPanel.Dock="Left" Width = "Auto" Content="Кнопик1" Grid.Column="0" Grid.Row="0"></Button>
+                <Button x:Name="MENUB2" DockPanel.Dock="Right" Content="Кнопик2" Grid.Column="1" Grid.Row="0"></Button>
+            </Grid>
+        </DockPanel>
+
+    </Grid>
+</Window>

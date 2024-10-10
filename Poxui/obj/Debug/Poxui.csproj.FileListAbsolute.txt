@@ -1,0 +1,15 @@
+C:\Users\Student_12\Desktop\Repos\Academy\Poxui\bin\Debug\Poxui.exe.config
+C:\Users\Student_12\Desktop\Repos\Academy\Poxui\bin\Debug\Poxui.exe
+C:\Users\Student_12\Desktop\Repos\Academy\Poxui\bin\Debug\Poxui.pdb
+C:\Users\Student_12\Desktop\Repos\Academy\Poxui\obj\Debug\Poxui.csproj.AssemblyReference.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Poxui\obj\Debug\MainWindow.g.cs
+C:\Users\Student_12\Desktop\Repos\Academy\Poxui\obj\Debug\App.g.cs
+C:\Users\Student_12\Desktop\Repos\Academy\Poxui\obj\Debug\Poxui_MarkupCompile.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Poxui\obj\Debug\Poxui_MarkupCompile.lref
+C:\Users\Student_12\Desktop\Repos\Academy\Poxui\obj\Debug\MainWindow.baml
+C:\Users\Student_12\Desktop\Repos\Academy\Poxui\obj\Debug\Poxui.g.resources
+C:\Users\Student_12\Desktop\Repos\Academy\Poxui\obj\Debug\Poxui.Properties.Resources.resources
+C:\Users\Student_12\Desktop\Repos\Academy\Poxui\obj\Debug\Poxui.csproj.GenerateResource.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Poxui\obj\Debug\Poxui.csproj.CoreCompileInputs.cache
+C:\Users\Student_12\Desktop\Repos\Academy\Poxui\obj\Debug\Poxui.exe
+C:\Users\Student_12\Desktop\Repos\Academy\Poxui\obj\Debug\Poxui.pdb
