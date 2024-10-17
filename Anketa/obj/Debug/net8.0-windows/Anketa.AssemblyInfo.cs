@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Anketa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbd7ed62ea4ad2cfaf32c09cb7ba6812899ade1f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c074bba436015c49b54a1d9eefc856ea4821eb19")]
 [assembly: System.Reflection.AssemblyProductAttribute("Anketa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Anketa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
