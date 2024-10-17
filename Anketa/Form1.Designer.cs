@@ -52,10 +52,10 @@
             toolStripTextBox1 = new ToolStripTextBox();
             EnterMenu2 = new ContextMenuStrip(components);
             toolStripTextBox2 = new ToolStripTextBox();
-            FIOenter = new TextBox();
             PWenter = new TextBox();
             Enter2 = new Button();
             WPCB = new ComboBox();
+            EnterCB = new ComboBox();
             EnterMenu.SuspendLayout();
             EnterMenu2.SuspendLayout();
             SuspendLayout();
@@ -274,14 +274,6 @@
             toolStripTextBox2.Name = "toolStripTextBox2";
             toolStripTextBox2.Size = new Size(100, 23);
             // 
-            // FIOenter
-            // 
-            FIOenter.Location = new Point(337, 143);
-            FIOenter.Name = "FIOenter";
-            FIOenter.Size = new Size(134, 23);
-            FIOenter.TabIndex = 21;
-            FIOenter.Visible = false;
-            // 
             // PWenter
             // 
             PWenter.Location = new Point(337, 185);
@@ -312,15 +304,24 @@
             WPCB.TabIndex = 24;
             WPCB.Visible = false;
             // 
+            // EnterCB
+            // 
+            EnterCB.FormattingEnabled = true;
+            EnterCB.Location = new Point(337, 144);
+            EnterCB.Name = "EnterCB";
+            EnterCB.Size = new Size(134, 23);
+            EnterCB.TabIndex = 25;
+            EnterCB.Visible = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(542, 283);
+            Controls.Add(EnterCB);
             Controls.Add(WPCB);
             Controls.Add(Enter2);
             Controls.Add(PWenter);
-            Controls.Add(FIOenter);
             Controls.Add(PWTB);
             Controls.Add(label8);
             Controls.Add(Enter);
@@ -375,9 +376,9 @@
         private ToolStripTextBox toolStripTextBox1;
         private ContextMenuStrip EnterMenu2;
         private ToolStripTextBox toolStripTextBox2;
-        private TextBox FIOenter;
         private TextBox PWenter;
         private Button Enter2;
         private ComboBox WPCB;
+        private ComboBox EnterCB;
     }
 }

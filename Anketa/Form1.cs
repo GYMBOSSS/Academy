@@ -18,7 +18,7 @@ namespace Anketa
             arr = File.ReadAllLines(reposfile.FullName);
             for (int i = 0; i < arr.Length; i = i + 6)
             {
-                
+                EnterCB.Items.Add(arr[i]);
                 User newww = new User(arr[i], arr[i + 1], arr[i + 2], arr[i + 3], arr[i + 4], arr[i + 5]);
                 userarr.Add(newww);  
             }
@@ -113,7 +113,7 @@ namespace Anketa
             Registration.Visible = false;
             Enter.Visible = false;
             Enter2.Visible = true;
-            FIOenter.Visible = true;
+            EnterCB.Visible = true;
             PWenter.Visible = true;
         }
 
@@ -121,7 +121,7 @@ namespace Anketa
         {
             for (int i = 0; i < userarr.Count; i++)
             {
-                if (userarr[i].FIO == FIOenter.Text)
+                if (userarr[i].FIO == EnterCB.Text)
                 {
                     if (userarr[i].PassWord == PWenter.Text)
                     {

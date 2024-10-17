@@ -45,6 +45,7 @@
             label3 = new Label();
             RegFB = new Button();
             BackB = new Button();
+            button1 = new Button();
             SuspendLayout();
             // 
             // AutRegB
@@ -223,11 +224,22 @@
             BackB.Visible = false;
             BackB.Click += BackB_Click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(322, 123);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 17;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(338, 248);
+            Controls.Add(button1);
             Controls.Add(BackB);
             Controls.Add(RegFB);
             Controls.Add(label3);
@@ -271,5 +283,6 @@
         private Label label3;
         private Button RegFB;
         private Button BackB;
+        private Button button1;
     }
 }
