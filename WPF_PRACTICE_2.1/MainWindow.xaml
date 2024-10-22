@@ -7,18 +7,28 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="435" Width="485">
     <Grid>
-        <DockPanel LastChildFill="True">
-            <Button x:Name="REKLAMA1" DockPanel.Dock="Left" Content="Реклама" Click="REKLAMA1_Click"></Button>
-            <Button x:Name="REKLAMA2" DockPanel.Dock="Right" Content="Реклама" Click="REKLAMA1_Click"></Button>
+        <FlowDocumentReader x:Name="DOC">
+            <FlowDocument ColumnWidth="50" ColumnGap="150">
+                <Paragraph TextAlignment="Left">
+                   Если ты согласишься, то тебя запретит роскомнадзор
+                </Paragraph>
+                <BlockUIContainer FontSize="13">
+                    <Button x:Name="SOGLB" Content="Согласиться" Click="SOGLB_Click"></Button>
+                </BlockUIContainer>
+            </FlowDocument>
+        </FlowDocumentReader>
+        <DockPanel x:Name="DOCKPANELKA" LastChildFill="True" Visibility="Collapsed">
+            <Button x:Name="REKLAMA1" DockPanel.Dock="Left" Content="Реклама" Click="REKLAMA1_Click" Visibility="Hidden" ></Button>
+            <Button x:Name="REKLAMA2" DockPanel.Dock="Right" Content="Реклама" Click="REKLAMA1_Click" Visibility="Hidden"></Button>
             <Grid x:Name="KONTAKTI" DockPanel.Dock="Bottom">
                 <Grid.RowDefinitions>
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
-                <Label x:Name="KONTAKT1" Grid.Row="0" Content="1337"></Label>
-                <Label x:Name="KONTAKT2" Grid.Row="1" Content="322"></Label>
+                <Label x:Name="KONTAKT1" Grid.Row="0" Content="1337" Visibility="Hidden"></Label>
+                <Label x:Name="KONTAKT2" Grid.Row="1" Content="322" Visibility="Hidden"></Label>
             </Grid>
-            <Grid x:Name="PANELKA" DockPanel.Dock="Top">
+            <Grid x:Name="PANELKA" DockPanel.Dock="Top" Visibility="Hidden">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition></ColumnDefinition>
                     <ColumnDefinition></ColumnDefinition>

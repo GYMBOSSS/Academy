@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             EnterB = new Button();
+            AdminB = new Button();
+            AdminCB = new ComboBox();
             SuspendLayout();
             // 
             // EnterB
@@ -41,11 +43,33 @@
             EnterB.UseVisualStyleBackColor = true;
             EnterB.Click += EnterB_Click;
             // 
+            // AdminB
+            // 
+            AdminB.Location = new Point(93, 96);
+            AdminB.Name = "AdminB";
+            AdminB.Size = new Size(146, 78);
+            AdminB.TabIndex = 1;
+            AdminB.Text = "button1";
+            AdminB.UseVisualStyleBackColor = true;
+            AdminB.Visible = false;
+            AdminB.Click += AdminB_Click;
+            // 
+            // AdminCB
+            // 
+            AdminCB.FormattingEnabled = true;
+            AdminCB.Location = new Point(93, 195);
+            AdminCB.Name = "AdminCB";
+            AdminCB.Size = new Size(146, 23);
+            AdminCB.TabIndex = 2;
+            AdminCB.Visible = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(333, 450);
+            Controls.Add(AdminCB);
+            Controls.Add(AdminB);
             Controls.Add(EnterB);
             Name = "Form1";
             Text = "Form1";
@@ -55,5 +79,7 @@
         #endregion
 
         private Button EnterB;
+        private Button AdminB;
+        private ComboBox AdminCB;
     }
 }

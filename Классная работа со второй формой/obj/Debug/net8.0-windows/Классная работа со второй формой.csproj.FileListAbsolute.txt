@@ -16,3 +16,4 @@ C:\Users\Student_12\Desktop\Repos\Academy\Academy\Классная работа 
 C:\Users\Student_12\Desktop\Repos\Academy\Academy\Классная работа со второй формой\obj\Debug\net8.0-windows\Классная работа со второй формой.pdb
 C:\Users\Student_12\Desktop\Repos\Academy\Academy\Классная работа со второй формой\obj\Debug\net8.0-windows\Классная работа со второй формой.genruntimeconfig.cache
 C:\Users\Student_12\Desktop\Repos\Academy\Academy\Классная работа со второй формой\obj\Debug\net8.0-windows\ref\Классная работа со второй формой.dll
+C:\Users\Student_12\Desktop\Repos\Academy\Academy\Классная работа со второй формой\obj\Debug\net8.0-windows\Классная_работа_со_второй_формой.AdminForm.resources

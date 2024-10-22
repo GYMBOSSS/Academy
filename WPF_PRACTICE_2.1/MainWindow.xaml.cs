@@ -29,5 +29,15 @@ namespace WPF_PRACTICE_2._1
         {
             MessageBox.Show("Поздравляю, на тебя оформлен кредит размером в один миллион зелёных. Удачи выжить","Ку-ку", MessageBoxButton.OK,MessageBoxImage.Information);
         }
+
+        private void SOGLB_Click(object sender, RoutedEventArgs e)
+        {
+            PANELKA.Visibility = Visibility.Visible;
+            DOCKPANELKA.Visibility = Visibility.Visible;
+            REKLAMA1.Visibility = Visibility.Visible;
+            REKLAMA2.Visibility = Visibility.Visible;
+            DOC.Visibility = Visibility.Collapsed;
+            
+        }
     }
 }
