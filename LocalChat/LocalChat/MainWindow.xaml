@@ -7,20 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Margin="0,0,0,4">
-        <Grid Margin="0,37,577,46">
-            <Grid.RowDefinitions>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <TextBox HorizontalAlignment="Left" Margin="238,91,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
-        </Grid>
-        <TextBox HorizontalAlignment="Left" Margin="31,402,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="161"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="19,403,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="161"/>
+        <Label Content="Friend" HorizontalAlignment="Left" Margin="44,176,0,0" VerticalAlignment="Top"/>
         <ListBox x:Name="UsersDisplay" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="657,0,0,301" SelectionChanged="ListBox_SelectionChanged"/>
-        <ListBox x:Name="FriendsDisplay" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="479,2,178,301"/>
+        <ListBox x:Name="FriendsDisplay" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="479,2,178,301" SelectionChanged="FriendsDisplay_SelectionChanged"/>
+        <Button x:Name="CloseB" Content="Quit" HorizontalAlignment="Left" Margin="689,391,0,0" VerticalAlignment="Top" Height="29" Width="101" Click="CloseB_Click"/>
+        <Button x:Name="SendB" Content="Send" HorizontalAlignment="Left" Margin="194,402,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="FriendMes" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,207,674,112"/>
+        <ListBox x:Name="MyMes" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="131,207,543,112"/>
+        <Label Content="Me" HorizontalAlignment="Left" Margin="175,176,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

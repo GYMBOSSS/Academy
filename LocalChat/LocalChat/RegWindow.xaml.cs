@@ -32,6 +32,7 @@ namespace LocalChat
 
         private void EnterB_Click(object sender, RoutedEventArgs e)
         {
+            RegB.Visibility = Visibility.Collapsed;
             EnterB.Visibility = Visibility.Collapsed;
             SignInB.Visibility = Visibility.Collapsed;
             
@@ -41,6 +42,7 @@ namespace LocalChat
         }
         private void RegB_Click(object sender, RoutedEventArgs e)
         {
+            RegB.Visibility = Visibility.Collapsed;
             EnterB.Visibility = Visibility.Collapsed;
             SignInB.Visibility = Visibility.Collapsed;
 
@@ -57,10 +59,12 @@ namespace LocalChat
                     mw.ReturnUser(NameLITB.Text);
                 }
             }
+            this.Close();
         }
         private void SignInB_Click(Object sender, RoutedEventArgs e)
         {
             mw.ReturnUserToReg(NameSITB.Text, PassSITB.Text);
+            this.Close();
         }
     }
 }

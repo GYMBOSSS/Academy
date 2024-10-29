@@ -24,10 +24,14 @@ namespace LocalChat
     {
         public string userspath = "users.txt";
         public string dialindpath = "dialind.txt";
+      
         int thisuserindex;
 
         FileInfo usersfile;
         FileInfo dialindfile;
+
+        public List<string> chatarr;
+
         public List<User> users;
         public List<int> dialindexses;
         public MainWindow()
@@ -39,8 +43,19 @@ namespace LocalChat
             dialindfile = new FileInfo(dialindpath);
             dialindexses = new List<int>();
 
+            usersRead(usersfile);
+            dialindRead(dialindfile);
+
             RegWindow rw = new RegWindow(this);
             rw.ShowDialog();
+
+            for (int i = 0; i < users.Count(); i++)
+            {
+                if (i != thisuserindex)
+                {
+                    UsersDisplay.Items.Add(users[i].name);
+                }
+            }
 
             for (int i = 0; i < users[thisuserindex].friends.Count(); i++)
             {
@@ -53,14 +68,27 @@ namespace LocalChat
             string[] arr = File.ReadAllLines(file.FullName);
             for (int i = 0; i < arr.Length; i+=4)
             {
-                string[] friends = arr[i+2].Split(',');
-                string[] temp = arr[i + 3].Split(',');
-                int[]dialogues = new int[] {};
-                for (int j = 0; j < temp.Length; j++)
+                string[] friends = new string[0];
+                if (arr[i + 2] != "")
                 {
-                    dialogues.Append(int.Parse(temp[j]));
+                    friends = arr[i + 2].Split(',');
+                }
+                string[] temp = null;
+                if (arr[i + 3] != "")
+                {
+                    temp = arr[i + 3].Split(',');
+                }
+                int[]dialogues = new int[0] {};
+                if (temp != null)
+                {
+                    for (int j = 0; j < temp.Length; j++)
+                    {
+                        dialogues.Append(int.Parse(temp[j]));
+                    }
+
                 }
                 User nu = new User(arr[i], arr[i+1], friends, dialogues);
+                users.Add(nu);
             }
         }
         public void dialindRead(FileInfo file)
@@ -85,10 +113,6 @@ namespace LocalChat
         {
             User nu = new User(name, password);
             users.Add(nu);
-            File.AppendAllText(nu.name, userspath);
-            File.AppendAllText(nu.password, userspath);
-            File.AppendAllText(nu.name, userspath);
-
         }
         public List<User> SendUsersList()
         {
@@ -103,8 +127,9 @@ namespace LocalChat
             {
                 users[thisuserindex].friends.Append(uss);
                 dialindexses.Add(dialindexses.Count + 1);
-                users[thisuserindex].dialogues.Append(dialindexses.Count + 1);
+                users[thisuserindex].dialogues.Append(dialindexses.Count);
                 FriendsDisplay.Items.Add(uss);
+                File.Create($"{(dialindexses.Count).ToString()}.txt");
             }
             for (int i = 0; i < users.Count; i++)
             {
@@ -115,6 +140,47 @@ namespace LocalChat
                 }
             }
         }
+
+        private void CloseB_Click(object sender, RoutedEventArgs e)
+        { 
+            List <string> arr = new List<string>();
+            for (int i = 0; i < users.Count; i++)
+            {
+                arr.Add(users[i].name);
+                arr.Add(users[i].password);
+                arr.Add(string.Join(",", users[i].friends));
+                arr.Add(string.Join(",", users[i].dialogues));
+            }
+            File.WriteAllLines(userspath,arr);
+            List <string> arr1 = new List<string>();
+            foreach(int  i in dialindexses) 
+            { 
+                arr1.Add(i.ToString());
+            }
+            File.WriteAllLines(dialindpath, arr1);
+            this.Close();
+        }
+
+        private void FriendsDisplay_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            string name = FriendsDisplay.SelectedItem.ToString();
+            int dialindex = 0;
+            for (int i = 0; i < users[thisuserindex].friends.Length; i++)
+            {
+                if (name == users[thisuserindex].friends[i])
+                {
+                    dialindex = i + 1;
+                }
+            }
+            chatarr = new List<string>(File.ReadAllLines(dialindex.ToString()));
+            for (int i = 0; i < chatarr.Count; i+=2)
+            {
+                if (chatarr[i] == name)
+                {
+                    FriendMes.Items.Add(chatarr[i+1]);
+                }
+                else { MyMes.Items.Add(chatarr[i + 1]); }
+            }
+        }
     }
-    
 }
