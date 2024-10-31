@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repos\\Academy\\LocalChat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4CFA2F-88C6-4C4F-ACE3-7EA4F4A016F7}|LocalChat\\LocalChat.csproj|c:\\repos\\academy\\localchat\\localchat\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4CFA2F-88C6-4C4F-ACE3-7EA4F4A016F7}|LocalChat\\LocalChat.csproj|solutionrelative:localchat\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4CFA2F-88C6-4C4F-ACE3-7EA4F4A016F7}|LocalChat\\LocalChat.csproj|c:\\repos\\academy\\localchat\\localchat\\regwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4CFA2F-88C6-4C4F-ACE3-7EA4F4A016F7}|LocalChat\\LocalChat.csproj|solutionrelative:localchat\\regwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4CFA2F-88C6-4C4F-ACE3-7EA4F4A016F7}|LocalChat\\LocalChat.csproj|c:\\repos\\academy\\localchat\\localchat\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4CFA2F-88C6-4C4F-ACE3-7EA4F4A016F7}|LocalChat\\LocalChat.csproj|solutionrelative:localchat\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4CFA2F-88C6-4C4F-ACE3-7EA4F4A016F7}|LocalChat\\LocalChat.csproj|c:\\repos\\academy\\localchat\\localchat\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE4CFA2F-88C6-4C4F-ACE3-7EA4F4A016F7}|LocalChat\\LocalChat.csproj|solutionrelative:localchat\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4CFA2F-88C6-4C4F-ACE3-7EA4F4A016F7}|LocalChat\\LocalChat.csproj|c:\\repos\\academy\\localchat\\localchat\\regwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE4CFA2F-88C6-4C4F-ACE3-7EA4F4A016F7}|LocalChat\\LocalChat.csproj|solutionrelative:localchat\\regwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegWindow.xaml",
+              "DocumentMoniker": "C:\\Repos\\Academy\\LocalChat\\LocalChat\\RegWindow.xaml",
+              "RelativeDocumentMoniker": "LocalChat\\RegWindow.xaml",
+              "ToolTip": "C:\\Repos\\Academy\\LocalChat\\LocalChat\\RegWindow.xaml",
+              "RelativeToolTip": "LocalChat\\RegWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T07:49:56.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Repos\\Academy\\LocalChat\\LocalChat\\RegWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LocalChat\\RegWindow.xaml.cs",
+              "ToolTip": "C:\\Repos\\Academy\\LocalChat\\LocalChat\\RegWindow.xaml.cs",
+              "RelativeToolTip": "LocalChat\\RegWindow.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAswEMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T07:12:05.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Repos\\Academy\\LocalChat\\LocalChat\\User.cs",
+              "RelativeDocumentMoniker": "LocalChat\\User.cs",
+              "ToolTip": "C:\\Repos\\Academy\\LocalChat\\LocalChat\\User.cs",
+              "RelativeToolTip": "LocalChat\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T07:02:37.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Repos\\Academy\\LocalChat\\LocalChat\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LocalChat\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Repos\\Academy\\LocalChat\\LocalChat\\MainWindow.xaml.cs",
+              "RelativeToolTip": "LocalChat\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAYwKcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:55:46.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Repos\\Academy\\LocalChat\\LocalChat\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "LocalChat\\MainWindow.xaml",
+              "ToolTip": "C:\\Repos\\Academy\\LocalChat\\LocalChat\\MainWindow.xaml",
+              "RelativeToolTip": "LocalChat\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T06:54:43.818Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
