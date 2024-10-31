@@ -5,8 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StudBD"
         mc:Ignorable="d"
-        Title="TeacherRegistrationForm" Height="450" Width="800">
-    <Grid>
-        
+        Title="TeacherRegistrationForm" Height="534" Width="344">
+    <Grid Margin="0,0,171,-6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="53*"></RowDefinition>
+            <RowDefinition Height="53*"></RowDefinition>
+            <RowDefinition Height="53*"></RowDefinition>
+            <RowDefinition Height="53*"></RowDefinition>
+            <RowDefinition Height="53*"></RowDefinition>
+            <RowDefinition Height="53*"></RowDefinition>
+            <RowDefinition Height="53*"></RowDefinition>
+            <RowDefinition Height="23*"></RowDefinition>
+            <RowDefinition Height="83*"></RowDefinition>
+            <RowDefinition Height="53*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="NameTB" TextWrapping="Wrap" Text="TextBox" Grid.Row="0" Margin="12,0,12,53" Grid.RowSpan="2"/>
+        <TextBox x:Name="SurNTB" TextWrapping="Wrap" Text="TextBox" Grid.Row="1" Margin="12,0,12,52" Grid.RowSpan="2"/>
+        <TextBox x:Name="MiddleNTB" TextWrapping="Wrap" Text="TextBox" Grid.Row="2" Margin="12,0,12,0"/>
+        <TextBox x:Name="AgeTB" TextWrapping="Wrap" Text="TextBox" Grid.Row="2" Margin="12,52,12,0" Grid.RowSpan="2"/>
+        <TextBox x:Name="NumTB" TextWrapping="Wrap" Text="TextBox" Grid.Row="3" Margin="12,53,12,0" Grid.RowSpan="2"/>
+        <ComboBox x:Name="GenderCB" Text="ComboBox" Grid.Row="4" Margin="12,53,12,53" Grid.RowSpan="3"/>
+        <TextBox x:Name="EduTB" TextWrapping="Wrap" Text="TextBox" Grid.Row="6" Margin="12,0,12,4"/>
+        <ComboBox x:Name="AcDegCB" HorizontalAlignment="Center" Grid.Row="7" VerticalAlignment="Center" Width="120" Height="22"></ComboBox>
+        <ListBox x:Name = "SubjTarLB"  Grid.Row="8" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionMode="Multiple"/>
+        <Button x:Name="ComB" Grid.Row="9" Content = "Registrate" Margin="0,0,0,10" Click="ComB_Click"></Button>
     </Grid>
 </Window>

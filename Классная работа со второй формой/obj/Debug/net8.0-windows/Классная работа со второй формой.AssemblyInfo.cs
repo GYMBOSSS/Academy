@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Классная работа со второй формой")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d309b8eafc2561f141b2fb5b627c86be5f00453")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1230ca50e5ffa93cd174a0d1a14400233fd3801e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Классная работа со второй формой")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Классная работа со второй формой")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
